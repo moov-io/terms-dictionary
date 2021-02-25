@@ -5,7 +5,7 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 ## Banking and Payments
 
-- **1099**<a id="1099"></a>: A 1099 usually refers to the IRS 1099-MISC form. Each year, it’s sent to independent contractors and freelancers (non-employees) who have been paid $600 or more by a client company. Separate 1099s are sent for each company.
+- **1099**<a id="1099"></a>: A 1099 usually refers to the IRS 1099-NEC form (formerly 1099-MISC). Each year, it’s sent to independent contractors and freelancers (non-employees) who have been paid $600 or more by a client company. Separate 1099s are sent for each company.
 
 - **A2A (Account-to-Account)**<a id="a2a"></a>: Payments that involve the transfer of funds between two accounts owned by a single party. These accounts may be at the same or different financial institutions.
 
