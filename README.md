@@ -9,6 +9,10 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **A2A (Account-to-Account)**<a id="a2a"></a>: Payments that involve the transfer of funds between two accounts owned by a single party. These accounts may be at the same or different financial institutions.
 
+- **accounts payable (AP)**<a id="ap"></a>: Amounts due to vendors or suppliers for goods or services received that have not yet been paid for.
+
+- **accounts receivable (AR)**<a id="ar"></a>: Amounts owed for goods or services delivered that have not yet been paid for.
+
 - **ACH (Automated Clearing House)**<a id="ach"></a>: A U.S. network that coordinates electronic payments and automated money transfers. ACH is a way to move money between banks without using paper checks, wire transfers, credit card networks, or cash.
 
 - **ACH authorization**<a id="ach-authorization"></a>: An originator must obtain authorization from the receiver to originate one or more entries to the receiver’s account.
@@ -29,6 +33,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **address verification service (AVS)**<a id="avs"></a>: A security system requiring merchants to supply address information for a cardholder to the institution that issues the credit card in card-not-present transactions, including online purchases.
 
+- **anti-money laundering (AML)**<a id="aml"></a>: The process of preventing, detecting, and reporting money laundering, which is the illegal process of making money with criminal origins seem like it was obtained legitimately.
+
 - **arbitration**<a id="arbitration"></a>: The process utilized by credit card issuing companies to ascertain whether an Acquirer has definitive responsibility for a chargeback.
 
 - **ATM (Automated Teller Machine)**<a id="ATM"></a>: A specialized computer that allows users to check account balances, withdraw or deposit money, view account activity, and possibly make purchases.
@@ -42,6 +48,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **B2C (Business-to-Consumer)**<a id="b2c"></a>: Also known as direct-to-consumer, this refers to selling products and services directly to customers without a middleman.
 
 - **bank identification number (BIN)**<a id="bin"></a>: The initial four to six digits that appear on a payment card, identifying the bank or entity that issued the card, that issuer’s location, and the card type (e.g., credit, debit, gift). A BIN may also be referred to as an issuer identification number (IIN).
+
+- **Bank Secrecy Act (BSA)**<a id="bsa"></a>: Also referred to as The Currency and Foreign Transactions Reporting Act, this [anti-money laundering (AML)](#aml) act combats criminal activity by requiring financial institutions to assist the U.S. government by keeping certain records and reporting suspicious activity such as large cash transactions.
 
 - **batch**<a id="batch"></a>: The accumulation of captured (sale) transactions waiting to be settled. Multiple batches may be settled throughout the day.
 
@@ -65,9 +73,13 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **charge card**<a id="charge-card"></a>: A payment card very similar to a [credit card](#credit-card), except the full balance must be paid off each month, there's usually an annual fee, and there isn't a spending limit.
 
+- **check/cheque**<a id="check"></a>: A document that orders a bank to a pay a specific amount of money from a party’s account to another party whose name the check has been issued.
+
 - **Check 21 Act**<a id="check-21"></a>: A federal law that allows banks to create equivalent electronic images of paper checks for faster processing. The process of creating a check image is called "check truncation", while the electronic copy itself is called a "substitute check" or "image cash letter (ICL)".
 
 - **check verification**<a id="check-verification"></a>: This refers to a database service provided to merchants, businesses, and individuals to verify a check writer has a valid checking account and does not have a history of writing bad checks. This is not a guarantee of payment to the merchant.
+
+- **CHIPS (Clearing House Interbank Payments System)**<a id="chips"></a>: Owned by [The Clearing House](#tch), this is a private-sector alternative to [Fedwire](#fedwire) that clears payments on a net basis and is less expensive than Fedwire. 
 
 - **closed loop payment system**<a id="closed-loop"></a>: Closed loop payment systems operate without intermediaries, where the end parties have a direct relationship with the payments system.
 
@@ -175,6 +187,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **payment**<a id="payment"></a>: The transfer of value from one end party to another.
 
+- **payment facilitator (PayFac)**<a id="payfac"></a>: A master merchant account that services sub-merchants as an [underwriter](#underwriter), simplifying and speeding up the merchant enrollment process. This eliminates the need for sub-merchants to establish a direct relationship with an acquiring bank. Onboarded sub-merchants do not need to register a [merchant ID (MID)](#mid) and will instead fall under the PayFac's master MID.
+
 - **Payment for Order Flow (PFOF)**<a id="pfof"></a>: A payment by an exchange to a brokerage firm for the right to execute a given trade.  While this is a controversial practice, the net result is often price improvement for the trader, relative to the price on the public exchange.
 
 - **payment gateway**<a id="payment-gateway"></a>: An Internet-based system used in an ecommerce transaction for the transfer of credit-card information from a computer or website to a credit-card processor for verification, completing the authorization process between the merchant and the consumer.
@@ -233,6 +247,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **terminal identification number (TID)**<a id="tid"></a>: Unique numerical identifier that denotes the specific Point-of-Sale device or computer where a payment transaction initiated, used by merchants, card associations and others to source the origin of fraud transactions.
 
+- **The Clearing House**<a id="tch"></a>: A banking association and payments company owned by large commercial banks that provides the only private-sector ACH ([EPN](#epn)) and wire ([CHIPS](#chips)) operators in the United States. 
+
 - **TIN Matching**<a id="tin-matching"></a>: - An IRS program that allows payers to match the tax identification number (TIN) of a business or individual to the IRS database when filing 1099 forms. This helps avoid penalties from filing invalid 1099s.
 
 - **trace ID**<a id="trace-id"></a>: A unique reference number assigned to each ACH entry, also known as a "trace number", which can be used to “trace” the location of the transfer.
@@ -241,9 +257,11 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **ultimate debtor**<a id="ultimate-debtor"></a>: Party that owes an amount of money to the ultimate creditor, such as the buyer of services or goods. The term is used when the receiver of an invoice is different than the payer.
 
+- **unauthorized transaction**<a id="unauthorized-transaction"></a>: During a purchase, the use of a credit or debit card, or via other method, to make a payment not authorized by that account holder, often the result of fraud or cybercrime. Note that this does not refer to an issuer declining authorization for payment on a transaction.
+
 - **under review**<a id="under-review"></a>: The payment processor practice of reviewing a potentially fraudulent or high-risk transaction prior to submission for processing, usually resulting in a minor delay.
 
-- **unauthorized transaction**<a id="unauthorized-transaction"></a>: During a purchase, the use of a credit or debit card, or via other method, to make a payment not authorized by that account holder, often the result of fraud or cybercrime. Note that this does not refer to an issuer declining authorization for payment on a transaction.
+- **underwriter**<a id="underwriter"></a>: A party that evaluates and assumes another party’s risk for a fee.
 
 
 ## Sales
