@@ -175,6 +175,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **payment**<a id="payment"></a>: The transfer of value from one end party to another.
 
+- **Payment for Order Flow (PFOF)**<a id="pfof"></a>: A payment by an exchange to a brokerage firm for the right to execute a given trade.  While this is a controversial practice, the net result is often price improvement for the trader, relative to the price on the public exchange.
+
 - **payment gateway**<a id="payment-gateway"></a>: An Internet-based system used in an ecommerce transaction for the transfer of credit-card information from a computer or website to a credit-card processor for verification, completing the authorization process between the merchant and the consumer.
 
 - **payment message structure (ISO 20022)**<a id="payment-message-iso20022"></a>: Payment initiation message is composed of three parts: Group Header, Payment Information, and Credit Transfer Transaction Information.
