@@ -13,9 +13,9 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **accounts receivable (AR)**<a id="ar"></a>: Amounts owed for goods or services delivered that have not yet been paid for.
 
-- **ACH (Automated Clearing House)**<a id="ach"></a>: A U.S. network that coordinates electronic payments and automated money transfers. ACH is a way to move money between banks without using paper checks, wire transfers, credit card networks, or cash.
+- **ACH (Automated Clearing House)**<a id="ach"></a>: A U.S. network that coordinates electronic payments and automated money transfers. ACH is a way to move money between banks without using paper checks, wire transfers, card networks, or cash.
 
-- **ACH authorization**<a id="ach-authorization"></a>: An originator must obtain authorization from the receiver to originate one or more entries to the receiver’s account.
+- **ACH authorization**<a id="ach-authorization"></a>: An originator must obtain authorization from a receiver to originate one or more entries to the receiver’s account.
 
 - **ACH credit**<a id="ach-credit"></a>: A transaction pushing funds into an account (e.g., payroll direct deposit).
 
@@ -25,11 +25,11 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **ACH reversal**<a id="ach-reversal"></a>: A credit or debit entry that reverses an erroneous entry. Must be transmitted to or made available to the RDFI within five banking days following the settlement date of the erroneous entry.
 
-- **acquirer / acquiring bank**<a id="acquirer"></a>: A financial institution that processes a payment transaction, such as credit or debit card payments, on behalf of a merchant. In the payments value chain, the Acquirer enables businesses to accept credit card payments for the purchase of goods and services. The Acquirer underwrites the merchant account, and may provide the hardware and software to enable the merchant to process transactions.
+- **acquirer / acquiring bank**<a id="acquirer"></a>: A financial institution that processes payment transactions, such as credit or debit card payments, on behalf of a merchant. In the payments value chain, the Acquirer enables businesses to accept credit card payments for the purchase of goods and services. The Acquirer underwrites the merchant account, and may provide hardware and software to enable the merchant to process transactions.
 
-- **acquiring**<a id="acquiring"></a>: The process whereby a bank or financial institution (also known as acquiring bank or acquirer) processes credit or debit card transactions on behalf of a merchant, enabling that merchant to accept card payment for the purchase of goods or services.
+- **acquiring**<a id="acquiring"></a>: The process whereby a bank or financial institution (also known as acquiring bank or acquirer) processes credit or debit card transactions on behalf of a merchant, enabling that merchant to accept card payments for the purchase of goods and services.
 
-- **addenda record**<a id="addenda-record"></a>: An ACH record that contains supplemental data related to an ACH entry. This information may be needed to completely identify an account holder or provide information concerning a payment to the RDFI and the receiver.
+- **addenda record**<a id="addenda-record"></a>: An ACH record that contains supplemental data related to an ACH entry. This information may be needed to completely identify an account holder or provide information concerning a payment to the RDFI and receiver.
 
 - **address verification service (AVS)**<a id="avs"></a>: A security system requiring merchants to supply address information for a cardholder to the institution that issues the credit card in card-not-present transactions, including online purchases.
 
@@ -61,15 +61,15 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **C2C (Consumer-to-Consumer)**<a id="c2c"></a>: Payments that involve the transfer of funds between two different consumer accounts for goods or services, often through an online marketplace like eBay, Etsy, or Craigslist.
 
-- **capture date**<a id="capture-date"></a>: This refers to the date a payment transaction is processed by an acquirer on behalf of a merchant.
+- **capture date**<a id="capture-date"></a>: The date a payment transaction is processed by an acquirer on behalf of a merchant.
 
-- **card not present (CNP)**<a id="cnp"></a>: This refers to credit or debit card transactions where the physical card is not present at the point of transaction, such as for online purchases.
+- **card not present (CNP)**<a id="cnp"></a>: This refers to credit or debit card transactions where the physical card is not present at the point of transaction, such as online purchases.
 
-- **card verification code (CVC/CVV/CSC/CVD/CID)**<a id="card-verification-code"></a>: An authentication code added to a payment card for use during the authorization process. The purpose of the CVC is to verify that the cardholder making the transaction during a card-not-present transaction actually possesses the credit or debit card being used for the purchase. Credit card companies have their own name for the code. For Visa and MasterCard, the code appears as three digits on the back of the card. For American Express, the verification code appears as a four-digit code on the front of the card.
+- **card verification code (CVC/CVV/CSC/CVD/CID)**<a id="card-verification-code"></a>: An authentication code added to a payment card for use during the authorization process. The purpose of the CVC is to verify that the cardholder making the transaction during a card-not-present transaction actually possesses the credit or debit card being used for the purchase. Credit card companies have their own name for the code. For Visa and MasterCard, the code appears as three digits on the back of the card. For American Express, the verification code appears as four digits on the front of the card.
 
 - **cash advance**<a id="cash-advance"></a>: An amount of cash advanced by a bank teller or ATM to a bank cardholder that is drawn against the cardholder’s line of credit.
 
-- **chargeback**<a id="chargeback"></a>: This refers to a demand on behalf of the credit-card issuer, on behalf of its cardholder, made to a retailer to reverse a payment based on a disputed transaction or instance of fraud.
+- **chargeback**<a id="chargeback"></a>: A demand on behalf of a credit card issuer, on behalf of its cardholder, made to a retailer to reverse a payment based on a disputed transaction or instance of fraud.
 
 - **charge card**<a id="charge-card"></a>: A payment card very similar to a [credit card](#credit-card), except the full balance must be paid off each month, there's usually an annual fee, and there isn't a spending limit.
 
@@ -77,19 +77,19 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **Check 21 Act**<a id="check-21"></a>: A federal law that allows banks to create equivalent electronic images of paper checks for faster processing. The process of creating a check image is called "check truncation", while the electronic copy itself is called a "substitute check" or "image cash letter (ICL)".
 
-- **check verification**<a id="check-verification"></a>: This refers to a database service provided to merchants, businesses, and individuals to verify a check writer has a valid checking account and does not have a history of writing bad checks. This is not a guarantee of payment to the merchant.
+- **check verification**<a id="check-verification"></a>: A database service provided to merchants, businesses, and individuals to verify a check writer has a valid checking account and does not have a history of writing bad checks. This is not a guarantee of payment to the merchant.
 
-- **CHIPS (Clearing House Interbank Payments System)**<a id="chips"></a>: Owned by [The Clearing House](#tch), this is a private-sector alternative to [Fedwire](#fedwire) that clears payments on a net basis and is less expensive than Fedwire. 
+- **CHIPS (Clearing House Interbank Payments System)**<a id="chips"></a>: Owned by [The Clearing House](#tch), this is a private-sector alternative to [Fedwire](#fedwire) that clears payments on a net basis and is less expensive than Fedwire.
 
 - **closed loop payment system**<a id="closed-loop"></a>: Closed loop payment systems operate without intermediaries, where the end parties have a direct relationship with the payments system.
 
-- **commercial card**<a id="commercial-card"></a>: A generic term referring to payment cards issued to businesses for use by employees to cover expenses (e.g., corporate cards, purchasing cards, travel, and entertainment cards).
+- **commercial card**<a id="commercial-card"></a>: A generic term referring to payment cards issued to businesses for use by employees to cover expenses (e.g., corporate cards, travel cards, and entertainment cards).
 
-- **credit bureau**<a id="credit-bureau"></a>: A company that collects, researches, and maintains credit information, and that sells that data to lenders, creditors, and consumers as credit reports. Though there are many credit bureaus, the most recognizable are Equifax, Experian, and TransUnion.
+- **credit bureau**<a id="credit-bureau"></a>: A company that collects, researches, and maintains credit information, and sells that data to lenders, creditors, and consumers as credit reports. Though there are many credit bureaus, the most recognizable are Equifax, Experian, and TransUnion.
 
 - **credit card**<a id="credit-card"></a>: A plastic card with a credit limit used to purchase goods and services and to obtain cash advances on credit for which a cardholder is subsequently billed by the [issuer](#issuer) for repayment of the credit extended.
 
-- **credit card authorization**<a id="credit-card-authorization"></a>: This refers to the initial electronic request made by a merchant for a customer’s card issuer to release funds. This verification process confirms that a credit card has adequate funds to cover a transaction.
+- **credit card authorization**<a id="credit-card-authorization"></a>: The initial electronic request made by a merchant for a customer’s card issuer to release funds. This verification process confirms that a credit card has adequate funds to cover a transaction.
 
 - **credit score**<a id="credit-score"></a>: A three-digit number that represents how likely a person is to pay back a loan based on their payment history. A higher score is better.
 
@@ -97,7 +97,7 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **debit card**<a id="debit-card"></a>: A plastic card used to purchase goods and services, where payments are made directly from the cardholder's checking account.
 
-- **declined card**<a id="declined-card"></a>: This refers to the refusal of a credit-card issuer to authorize and proceed with a payment transaction. A decline can occur for several reasons, include the suspicion of fraudulent activity, account-balance deficiency, a new card that has yet to be activated, etc.
+- **declined card**<a id="declined-card"></a>: This refers to the refusal of a credit card issuer to authorize and proceed with a payment transaction. A decline can occur for several reasons, including the suspicion of fraudulent activity, account-balance deficiency, a new card that has yet to be activated, etc.
 
 - **digital wallet**<a id="digital-wallet"></a>: Also known as an eWallet, this refers to a software application usually used in conjunction with a mobile payment system to facilitate electronic payments using a computer or smartphone for online transactions as well as purchases at physical stores. Digital wallets need to be linked to the user’s bank account.
 
@@ -107,19 +107,19 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **EFT (Electronic Funds Transfer)**<a id="eft"></a>: Electronic transfer of money from one bank account to another, either within a single financial institution or across multiple institutions, via computer-based systems without the direct intervention of bank staff.
 
-- **EBT (Electronic Benefits Transfer)**<a id="ebt"></a>: The electronic system enabling state government assistance programs to issue benefits to recipients in the form of payment cards, or EBT cards. Previously, state welfare agencies distributed benefits in the form of paper coupons.
+- **EBT (Electronic Benefits Transfer)**<a id="ebt"></a>: The electronic system enabling government assistance programs to issue benefits to recipients in the form of payment cards, or EBT cards. Previously, state welfare agencies distributed benefits in the form of paper coupons.
 
 - **EMV**<a id="emv"></a>: A type of payment card technology that uses a chip to store data securely. EMV cards may be contact or contactless, and are a way to reduce card fraud. They typically require the cardholder to enter a PIN when making a transaction and most POS terminals today support EMV technology.
 
 - **EPN (Electronic Payments Network)**<a id="epn"></a>: Owned by The Clearing House and one of two ACH operators (the other is the Federal Reserve Bank). The EPN is responsible for ACH transaction switching among banks for the private sector.
 
-- **faster payments**<a id="faster-payments"></a>: An umbrella term for payment solutions that are always available, offer immediate funds availability, and provide near-instant updates to both the sender and receiver. Examples include RTP and FedNow.
+- **faster payments**<a id="faster-payments"></a>: An umbrella term for payment solutions that are always available, offer immediate funds availability, and provide near-instant updates to both the sender and receiver. Examples include [RTP](#rtp) and [FedNow](#fednow).
 
 - **FedNow**<a id="fednow"></a>: A real-time gross settlement system that offers immediate access to funds once a payment message is received. Planned to release in 2024, FedNow is similar to [Fedwire](#fedwire), but designed for smaller transactions and with better availability. FedNow is also the publicly-owned counter to The Clearing House's [RTP](#rtp) network.
 
 - **Fedwire**<a id="fedwire"></a>: A real-time gross settlement funds transfer system operated by the U.S. Federal Reserve Banks that allows financial institutions to electronically transfer funds. Transfers can only be initiated by the sending bank once they receive the proper wiring instructions for the receiving bank. These instructions include: the receiving bank's routing number, account number, name, and dollar amount being transferred. This information is submitted to the Federal Reserve via the Fedwire system. Once the instructions are received and processed, the Fed will debit the funds from the sending bank's reserve account and credit the receiving bank's account. Wire transfers sent via Fedwire are completed the same business day, with many being completed instantly.
 
-- **funding source**<a id="funding-source"></a>: Any financial institution, bank or other funding entity providing liquidity to accommodate various payment flows.
+- **funding source**<a id="funding-source"></a>: Any financial institution, bank, or other funding entity providing liquidity to accommodate various payment flows.
 
 - **good funds**<a id="good-funds"></a>: Funds considered equivalent to cash and guaranteed to be available upon demand.
 
@@ -127,9 +127,9 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **ICL (Image Cash Letter)**<a id="icl"></a>: See [Check 21](#check-21).
 
-- **interchange fee**<a id="interchange"></a>: In credit-card processing, this refers to the fees paid by the acquiring bank to the issuing bank to compensate for transaction-related costs. Card networks like Visa and Mastercard establish interchange fee rates, which vary by merchant size, merchant type, transaction amount, and card type.
+- **interchange fee**<a id="interchange"></a>: In credit card processing, this refers to the fees paid by the acquiring bank to the issuing bank to compensate for transaction-related costs. Card networks like Visa and Mastercard establish interchange fee rates, which vary by merchant size, merchant type, transaction amount, and card type.
 
-- **ISO (Independent Sales Organization)**<a id="iso-sales"></a>: In merchant services, this refers to an independent credit-card processing company, often an approved entity reselling services from a larger company, such as First Data, under its own company name.
+- **ISO (Independent Sales Organization)**<a id="iso-sales"></a>: In merchant services, this refers to an independent credit card processing company, often an approved entity reselling services from a larger company, such as First Data, under its own company name.
 
 - **ISO (International Organization for Standardization)**<a id="iso-standards"></a>: An international standard setting organization involved in everything from food safety to financial services. As ISO puts it, a standard is "a formula that describes the best way of doing something". Notable financial standards are ISO 8583 and ISO 20022.
 
@@ -167,7 +167,7 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **offline debit transaction**<a id="offline-debit"></a>: Also known as a signature-debit transaction, this is a payment method utilizing a debit card to transfer funds from the cardholder’s bank account to a merchant via a credit card network, processing in much the same way as a credit card transaction (funds are not debited immediately). An interchange fee is charged to the merchant and not the card-issuing bank.
 
-- **online debit transaction**<a id="online-debit"></a>: Also known as a PIN-debit transaction, this is a payment method utilizing a debit card to transfer funds from the cardholder's bank account to a merchant on the ATM network of the cardholder's bank, such as STAR. Funds are deducted from the cardholder’s bank account immediately once the card is inserted/swiped at the point-of-sale.
+- **online debit transaction**<a id="online-debit"></a>: Also known as a PIN-debit transaction, this is a payment method utilizing a debit card to transfer funds from a cardholder's bank account to a merchant on the ATM network of the cardholder's bank, such as STAR. Funds are deducted from the cardholder’s bank account immediately once the card is inserted/swiped at the point-of-sale.
 
 - **on-us transaction**<a id="online-debit"></a>: A transaction where the sender and receiver banks are the same, resulting in less fees for the bank.
 
@@ -183,7 +183,7 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **P2P (Peer-to-Peer)**<a id="p2p"></a>: Payments that involve the transfer of funds between two different parties’ accounts. These accounts may be at the same or different financial institutions. Examples of P2P include Venmo, Zelle, and Cash App.
 
-- **partial authorization**<a id="partial-authorization"></a>: During a transaction, when the purchase amount exceeds the cardholder’s credit limit, the issuer can return a partial authorization for funds only up to the amount of the limit. At the Point-of-Sale, the merchant then requests an additional method of payment to cover the outstanding balance of the transaction.
+- **partial authorization**<a id="partial-authorization"></a>: During a transaction, when the purchase amount exceeds the cardholder’s credit limit, the issuer can return a partial authorization for funds only up to the amount of the limit. At the point-of-sale, the merchant then requests an additional method of payment to cover the outstanding balance of the transaction.
 
 - **payment**<a id="payment"></a>: The transfer of value from one end party to another.
 
@@ -191,9 +191,9 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **Payment for Order Flow (PFOF)**<a id="pfof"></a>: A payment by an exchange to a brokerage firm for the right to execute a given trade.  While this is a controversial practice, the net result is often price improvement for the trader, relative to the price on the public exchange.
 
-- **payment gateway**<a id="payment-gateway"></a>: An Internet-based system used in an ecommerce transaction for the transfer of credit-card information from a computer or website to a credit-card processor for verification, completing the authorization process between the merchant and the consumer.
+- **payment gateway**<a id="payment-gateway"></a>: An Internet-based system used in an ecommerce transaction for the transfer of credit card information from a computer or website to a credit card processor for verification, completing the authorization process between the merchant and the consumer.
 
-- **payment message structure (ISO 20022)**<a id="payment-message-iso20022"></a>: Payment initiation message is composed of three parts: Group Header, Payment Information, and Credit Transfer Transaction Information.
+- **payment message structure (ISO 20022)**<a id="payment-message-iso20022"></a>: An ISO 20022 payment initiation message is composed of three parts: Group Header, Payment Information, and Credit Transfer Transaction Information.
 
 - **payment method**<a id="payment-method"></a>: The form of payment a consumer uses to purchase goods or services from a seller (e.g., cash, credit card, debit card, money order, bank transfer).
 
@@ -201,7 +201,7 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **personal identification number (PIN)**<a id="pin"></a>: A confidential individual number or code used by a cardholder to authenticate card ownership for ATM or POS-terminal transactions.
 
-- **point-of-sale (POS)**<a id="point-of-sale"></a>: This refers to the specific time and place where a retail transaction is completed.
+- **point-of-sale (POS)**<a id="point-of-sale"></a>: The specific time and place where a retail transaction is completed.
 
 - **prepaid card**<a id="prepaid-card"></a>: A payment card that is not linked to a bank account, where the cardholder can only spend up to the amount that has been pre-deposited onto the card. Prepaid cards are often reloadable.
 
@@ -213,7 +213,7 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **RDFI (Receiving Depository Financial Institution)**<a id="odfi"></a>: An RDFI receives ACH entries from an ACH operator and credits or debits their customer's (receiver's) account as needed.
 
-- **reason code**<a id="reason-code"></a>: This refers to a code used to provide additional information to the receiving clearing member regarding the nature of a chargeback, subsequent presentment, fee collection, funds disbursement, or request for a source document.
+- **reason code**<a id="reason-code"></a>: A code used to provide additional information to the receiving clearing member regarding the nature of a chargeback, subsequent presentment, fee collection, funds disbursement, or request for a source document.
 
 - **receiver**<a id="receiver"></a>: The intended recipient of an ACH transaction. The Receiver authorizes the Originator to initiate a transaction to either “push” or “pull” funds to/from the Receiver’s bank account, depending on whether an ACH credit or debit transaction was generated by the Originator.
 
@@ -225,7 +225,7 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **return code**<a id="return-code"></a>: A notification of a payment return or correction for a business or user.
 
-- **risk management**<a id="risk-management"></a>: The process of identifying potential sources of risk and attempting to mitigate it. In payments, major types of risk include, credit risk, fraud, and data security.
+- **risk management**<a id="risk-management"></a>: The process of identifying potential sources of risk and attempting to mitigate them. In payments, major types of risk include credit risk, fraud, and data security.
 
 - **routing number**<a id="routing-number"></a>: Series of numbers assigned to checking accounts, savings accounts, or other accounts that identify the financial institution associated with the specific account.
 
@@ -237,19 +237,19 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **settlement**<a id="settlement"></a>: The actual movement of funds from one financial institution to another that completes a transaction.
 
-- **skimming**<a id="skimming"></a>: a type of fraud, where a device called a skimmer is placed over a legitimate card reader and captures info when a user unknowingly swipes their card through.
+- **skimming**<a id="skimming"></a>: A type of fraud, where a device called a skimmer is placed over a legitimate card reader and captures info when a user unknowingly swipes their card through.
 
 - **sponsor bank**<a id="sponsor-bank"></a>: A licensed financial institution that handles funds transmission and may provide additional banking services for a company's customers within a [BaaS](#baas) model, which lets the company avoid having to obtain a license themselves.
 
 - **standard entry class (SEC) code**<a id="sec"></a>: A three character code to identify the format and application of an ACH transaction.
 
-- **standard industrial code (SIC)**<a id="sic"></a>: A four-digit code assigned by the United States government for classifying industries used to identify the nature of a business.
+- **standard industrial code (SIC)**<a id="sic"></a>: A four-digit code assigned by the United States government that classifies industries and is used to identify the nature of a business.
 
-- **terminal identification number (TID)**<a id="tid"></a>: Unique numerical identifier that denotes the specific Point-of-Sale device or computer where a payment transaction initiated, used by merchants, card associations and others to source the origin of fraud transactions.
+- **terminal identification number (TID)**<a id="tid"></a>: Unique numerical identifier that denotes the specific point-of-sale device or computer where a payment transaction is initiated. It's used by merchants, card associations, and others to source the origin of fraud transactions.
 
-- **The Clearing House**<a id="tch"></a>: A banking association and payments company owned by large commercial banks that provides the only private-sector ACH ([EPN](#epn)) and wire ([CHIPS](#chips)) operators in the United States. 
+- **The Clearing House**<a id="tch"></a>: A banking association and payments company owned by large commercial banks that provides the only private-sector ACH ([EPN](#epn)) and wire ([CHIPS](#chips)) operators in the United States.
 
-- **TIN Matching**<a id="tin-matching"></a>: - An IRS program that allows payers to match the tax identification number (TIN) of a business or individual to the IRS database when filing 1099 forms. This helps avoid penalties from filing invalid 1099s.
+- **TIN Matching**<a id="tin-matching"></a>: - An IRS program that allows payers to match the tax identification number (TIN) of a business or individual to the IRS database when filing [1099](#1099) forms. This helps avoid penalties from filing invalid 1099s.
 
 - **trace ID**<a id="trace-id"></a>: A unique reference number assigned to each ACH entry, also known as a "trace number", which can be used to “trace” the location of the transfer.
 
@@ -257,7 +257,7 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **ultimate debtor**<a id="ultimate-debtor"></a>: Party that owes an amount of money to the ultimate creditor, such as the buyer of services or goods. The term is used when the receiver of an invoice is different than the payer.
 
-- **unauthorized transaction**<a id="unauthorized-transaction"></a>: During a purchase, the use of a credit or debit card, or via other method, to make a payment not authorized by that account holder, often the result of fraud or cybercrime. Note that this does not refer to an issuer declining authorization for payment on a transaction.
+- **unauthorized transaction**<a id="unauthorized-transaction"></a>: The use of a credit or debit card, or other method, to make a payment not authorized by the account holder, often the result of fraud or cybercrime. Note that this does not refer to an issuer declining authorization for payment on a transaction.
 
 - **under review**<a id="under-review"></a>: The payment processor practice of reviewing a potentially fraudulent or high-risk transaction prior to submission for processing, usually resulting in a minor delay.
 
@@ -283,11 +283,11 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **API (Application Programming Interface)**<a id="api"></a>: A computing interface which defines interactions between multiple software intermediaries. It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow, etc.
 
-- **BaaS (Banking as a Service)**<a id="baas"></a>: A modular approach to supplying complete banking processes that allows brands to easily embed financial services into their products without having to worry about building banking infrastructure or obtaining a license. BaaS utilizes [APIs](#api) and [webhooks](#webhooks) to make integration seamless and cost-effective.
+- **BaaS (Banking as a Service)**<a id="baas"></a>: A modular approach to supplying complete banking processes that allows brands to easily embed financial services into their products without having to worry about building banking infrastructure or obtaining a license. BaaS utilizes [APIs](#api) and [webhooks](#webhooks) to make integration seamless and cost effective.
 
 - **batch processing**<a id="batch-processing"></a>: A type of data processing and data communications transmission in which related transactions are grouped together and transmitted en masse for processing, usually by the same computer and under the same application.
 
-- **encryption**<a id="encryption"></a>: The technique of scrambling sensitive data automatically in a terminal or computer before data is transmitted for security/antifraud purposes using an algorithm and key. This is similar to [tokenization](#tokenization). 
+- **encryption**<a id="encryption"></a>: The technique of scrambling sensitive data automatically in a terminal or computer before transmission for security/antifraud purposes using an algorithm and key. This is similar to [tokenization](#tokenization).
 
 - **JSON (JavaScript Object Notation)**<a id="json"></a>: A syntax for storing and exchanging data compatible with most programming languages.
 
@@ -303,7 +303,7 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **staging environment**<a id="staging-environment"></a>: This is used for testing or demos and very closely resembles a [production environment](#production-environment).
 
-- **tokenization**<a id="tokenization"></a>: Data-security technology that substitutes non-sensitive random numerical sequences for sensitive data in the transaction process so it can be passed over the internet without exposing the raw data. This is similar to [encryption](#encryption).
+- **tokenization**<a id="tokenization"></a>: Data-security technology that substitutes non-sensitive random numerical sequences for sensitive data so it can be passed over the internet without exposing the raw data. This is similar to [encryption](#encryption).
 
 - **webhooks**<a id="webhooks"></a>: Automated messages sent from an app when an event occurs. The vendor will send an HTTP POST request containing desired data to a URL provided by the customer. The customer should refer to vendor documentation for payload format information.
 
