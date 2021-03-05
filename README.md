@@ -49,7 +49,11 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **bank identification number (BIN)**<a id="bin"></a>: The initial four to six digits that appear on a payment card, identifying the bank or entity that issued the card, that issuer’s location, and the card type (e.g., credit, debit, gift). A BIN may also be referred to as an issuer identification number (IIN).
 
+- **bank identifier code (BIC)**<a id="bic"></a>: Also known as a SWIFT code, this is an 8-11 character code that identifies a bank’s location and particular branch for international transfers.
+
 - **Bank Secrecy Act (BSA)**<a id="bsa"></a>: Also referred to as The Currency and Foreign Transactions Reporting Act, this [anti-money laundering (AML)](#aml) act combats criminal activity by requiring financial institutions to assist the U.S. government by keeping certain records and reporting suspicious activity such as large cash transactions.
+
+- **basis point (BP)**<a id="bp"></a>: Equivalent to 0.01%, it’s used to reduce ambiguity when defining percentage change. For example, an increase in 150 basis points from 2% gives you 3.5%.
 
 - **batch**<a id="batch"></a>: The accumulation of captured (sale) transactions waiting to be settled. Multiple batches may be settled throughout the day.
 
@@ -92,6 +96,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **credit card authorization**<a id="credit-card-authorization"></a>: The initial electronic request made by a merchant for a customer’s card issuer to release funds. This verification process confirms that a credit card has adequate funds to cover a transaction.
 
 - **credit score**<a id="credit-score"></a>: A three-digit number that represents how likely a person is to pay back a loan based on their payment history. A higher score is better.
+
+- **currency transaction report (CTR)**<a id="ctr"></a>: A report that U.S. financial institutions are required to file for transfers greater than $10,000 as part of the [Bank Secrecy Act](#bsa).
 
 - **debit**<a id="debit"></a>: A charge to a customer’s deposit account.
 
