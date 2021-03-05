@@ -49,7 +49,11 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **bank identification number (BIN)**<a id="bin"></a>: The initial four to six digits that appear on a payment card, identifying the bank or entity that issued the card, that issuer’s location, and the card type (e.g., credit, debit, gift). A BIN may also be referred to as an issuer identification number (IIN).
 
+- **bank identifier code (BIC)**<a id="bic"></a>: Also known as a SWIFT code, this is an 8-11 character code that identifies a bank’s location and particular branch for international transfers.
+
 - **Bank Secrecy Act (BSA)**<a id="bsa"></a>: Also referred to as The Currency and Foreign Transactions Reporting Act, this [anti-money laundering (AML)](#aml) act combats criminal activity by requiring financial institutions to assist the U.S. government by keeping certain records and reporting suspicious activity such as large cash transactions.
+
+- **basis point (BP)**<a id="bp"></a>: Equivalent to 0.01%, it’s used to reduce ambiguity when defining percentage change. For example, an increase in 150 basis points from 2% gives you 3.5%.
 
 - **batch**<a id="batch"></a>: The accumulation of captured (sale) transactions waiting to be settled. Multiple batches may be settled throughout the day.
 
@@ -68,6 +72,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **card verification code (CVC/CVV/CSC/CVD/CID)**<a id="card-verification-code"></a>: An authentication code added to a payment card for use during the authorization process. The purpose of the CVC is to verify that the cardholder making the transaction during a card-not-present transaction actually possesses the credit or debit card being used for the purchase. Credit card companies have their own name for the code. For Visa and MasterCard, the code appears as three digits on the back of the card. For American Express, the verification code appears as four digits on the front of the card.
 
 - **cash advance**<a id="cash-advance"></a>: An amount of cash advanced by a bank teller or ATM to a bank cardholder that is drawn against the cardholder’s line of credit.
+
+- **challenger bank**<a id="challenger-bank"></a>: Also called a neobank, this is a small, new, fully-digital bank that typically offers a mobile app and charges low fees. Neobanks aim to avoid the complexity of traditional banking and may partner with a licensed financial institution or be licensed themselves.
 
 - **chargeback**<a id="chargeback"></a>: A demand on behalf of a credit card issuer, on behalf of its cardholder, made to a retailer to reverse a payment based on a disputed transaction or instance of fraud.
 
@@ -93,6 +99,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **credit score**<a id="credit-score"></a>: A three-digit number that represents how likely a person is to pay back a loan based on their payment history. A higher score is better.
 
+- **currency transaction report (CTR)**<a id="ctr"></a>: A report that U.S. financial institutions are required to file for transfers greater than $10,000 as part of the [Bank Secrecy Act](#bsa).
+
 - **debit**<a id="debit"></a>: A charge to a customer’s deposit account.
 
 - **debit card**<a id="debit-card"></a>: A plastic card used to purchase goods and services, where payments are made directly from the cardholder's checking account.
@@ -103,15 +111,15 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **doing business as (DBA)**<a id="dba"></a>: This term refers to a secondary name (also known as an assumed name, fictitious business name, or trade name) that is legally associated with a company and can be used to open bank accounts, write checks, enter into contracts, and for other business purposes. That company must lawfully file this secondary name or faces fines and penalties. A sole proprietor is usually required to file for a DBA, while for large organizations with multiple businesses and brands, a DBA helps identify the true ownership, for legal purposes.
 
-- **DSS (Data Security Standard)**<a id="dss"></a>: Also referred to as the Payment Card Industry Data Security Standard (PCI DSS), this is a common set of information security policies and procedures for use by entities that handle credit card data (basically, any organization that accepts, processes, stores, or transmits credit card information) to protect that data and prevent misuse of cardholders’ personal information.
+- **Data Security Standard (DSS)**<a id="dss"></a>: Also referred to as the Payment Card Industry Data Security Standard (PCI DSS), this is a common set of information security policies and procedures for use by entities that handle credit card data (basically, any organization that accepts, processes, stores, or transmits credit card information) to protect that data and prevent misuse of cardholders’ personal information.
 
-- **EFT (Electronic Funds Transfer)**<a id="eft"></a>: Electronic transfer of money from one bank account to another, either within a single financial institution or across multiple institutions, via computer-based systems without the direct intervention of bank staff.
+- **electronic funds transfer (EFT)**<a id="eft"></a>: Electronic transfer of money from one bank account to another, either within a single financial institution or across multiple institutions, via computer-based systems without the direct intervention of bank staff.
 
-- **EBT (Electronic Benefits Transfer)**<a id="ebt"></a>: The electronic system enabling government assistance programs to issue benefits to recipients in the form of payment cards, or EBT cards. Previously, state welfare agencies distributed benefits in the form of paper coupons.
+- **Electronic Benefits Transfer (EBT)**<a id="ebt"></a>: The electronic system enabling government assistance programs to issue benefits to recipients in the form of payment cards, or EBT cards. Previously, state welfare agencies distributed benefits in the form of paper coupons.
 
 - **EMV**<a id="emv"></a>: A type of payment card technology that uses a chip to store data securely. EMV cards may be contact or contactless, and are a way to reduce card fraud. They typically require the cardholder to enter a PIN when making a transaction and most POS terminals today support EMV technology.
 
-- **EPN (Electronic Payments Network)**<a id="epn"></a>: Owned by The Clearing House and one of two ACH operators (the other is the Federal Reserve Bank). The EPN is responsible for ACH transaction switching among banks for the private sector.
+- **Electronic Payments Network (EPN)**<a id="epn"></a>: Owned by The Clearing House and one of two ACH operators (the other is the Federal Reserve Bank). The EPN is responsible for ACH transaction switching among banks for the private sector.
 
 - **faster payments**<a id="faster-payments"></a>: An umbrella term for payment solutions that are always available, offer immediate funds availability, and provide near-instant updates to both the sender and receiver. Examples include [RTP](#rtp) and [FedNow](#fednow).
 
@@ -125,13 +133,15 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **hold**<a id="hold"></a>: When a final transaction total is uncertain, as in a hotel stay, an authorization hold is placed on a portion of the cardholder’s credit limit or debit balance as a pledge of collateral. Once the full amount of the transaction is determined, usually at checkout, the card is charged and the hold is removed.
 
-- **ICL (Image Cash Letter)**<a id="icl"></a>: See [Check 21](#check-21).
+- **image cash letter (ICL)**<a id="icl"></a>: See [Check 21](#check-21).
 
 - **interchange fee**<a id="interchange"></a>: In credit card processing, this refers to the fees paid by the acquiring bank to the issuing bank to compensate for transaction-related costs. Card networks like Visa and Mastercard establish interchange fee rates, which vary by merchant size, merchant type, transaction amount, and card type.
 
-- **ISO (Independent Sales Organization)**<a id="iso-sales"></a>: In merchant services, this refers to an independent credit card processing company, often an approved entity reselling services from a larger company, such as First Data, under its own company name.
+- **international bank account number (IBAN)**<a id="iban"></a>: An alphanumeric code composed of up to 34 characters that identifies an individual account in an international transaction. 
 
-- **ISO (International Organization for Standardization)**<a id="iso-standards"></a>: An international standard setting organization involved in everything from food safety to financial services. As ISO puts it, a standard is "a formula that describes the best way of doing something". Notable financial standards are ISO 8583 and ISO 20022.
+- **independent sales organization (ISO)**<a id="iso-sales"></a>: In merchant services, this refers to an independent credit card processing company, often an approved entity reselling services from a larger company, such as First Data, under its own company name.
+
+- **International Organization for Standardization (ISO)**<a id="iso-standards"></a>: An international standard setting organization involved in everything from food safety to financial services. As ISO puts it, a standard is "a formula that describes the best way of doing something". Notable financial standards are ISO 8583 and ISO 20022.
 
 - **issuer / issuing bank**<a id="issuer"></a>: A financial institution, such as a bank or a credit union, which offers a payment card (credit or debit cards) directly to consumers (or organizations) and is liable for the use of the card. The issuer is also responsible for the billing and collecting of funds for purchases that were made using that card. In the payments value chain, the card issuer pays the acquiring bank for purchases of goods and services made by the cardholder. The cardholder then repays the issuing bank based on terms of an existing agreement.
 
@@ -223,15 +233,17 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **remote deposit transfer**<a id="remote-deposit"></a>: The process of customers making deposits remotely by scanning checks, often using a mobile device.
 
+- **retrieval request**<a id="retrieval-request"></a>: Sent from an issuer to merchant, this is a request for detailed information regarding a completed transaction. This often occurs when there is potential for a [chargeback](#chargeback).
+
 - **return code**<a id="return-code"></a>: A notification of a payment return or correction for a business or user.
 
 - **risk management**<a id="risk-management"></a>: The process of identifying potential sources of risk and attempting to mitigate them. In payments, major types of risk include credit risk, fraud, and data security.
 
 - **routing number**<a id="routing-number"></a>: Series of numbers assigned to checking accounts, savings accounts, or other accounts that identify the financial institution associated with the specific account.
 
-- **RTGS (Real-Time Gross Settlement)**<a id="rtgs"></a>: The continuous process of settling payments on an individual basis in real time, rather than submitting files at the end of the day or at predetermined intervals throughout the day.
+- **real-time gross settlement (RTGS)**<a id="rtgs"></a>: The continuous process of settling payments on an individual basis in real time, rather than submitting files at the end of the day or at predetermined intervals throughout the day.
 
-- **RTP (Real-Time Payments)**<a id="rtp"></a>: Released in 2017, the RTP network from The Clearing House is a real-time payments platform that all federally insured U.S. depository institutions are eligible to use for payments innovation. It will soon compete with [FedNow](#fednow).
+- **Real-Time Payments (RTP)**<a id="rtp"></a>: Released in 2017, the RTP network from The Clearing House is a real-time payments platform that all federally insured U.S. depository institutions are eligible to use for payments innovation. It will soon compete with [FedNow](#fednow).
 
 - **Same Day ACH**<a id="same-day-ach"></a>: Delivery of available funds within the same business day, not two to four.
 
@@ -243,11 +255,15 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **standard entry class (SEC) code**<a id="sec"></a>: A three character code to identify the format and application of an ACH transaction.
 
-- **standard industrial code (SIC)**<a id="sic"></a>: A four-digit code assigned by the United States government that classifies industries and is used to identify the nature of a business.
+- **standard industrial classification (SIC) code**<a id="sic"></a>: A four-digit code assigned by the United States government that classifies industries and is used to identify the nature of a business.
+
+- **straight-through processing (STP)**<a id="stp"></a>: Payment processing that is completely free of human intervention, resulting in faster completion and fewer errors.
 
 - **terminal identification number (TID)**<a id="tid"></a>: Unique numerical identifier that denotes the specific point-of-sale device or computer where a payment transaction is initiated. It's used by merchants, card associations, and others to source the origin of fraud transactions.
 
-- **The Clearing House**<a id="tch"></a>: A banking association and payments company owned by large commercial banks that provides the only private-sector ACH ([EPN](#epn)) and wire ([CHIPS](#chips)) operators in the United States.
+- **The Clearing House (TCH)**<a id="tch"></a>: A banking association and payments company owned by large commercial banks that provides the only private-sector ACH ([EPN](#epn)) and wire ([CHIPS](#chips)) operators in the United States.
+
+- **thin file**<a id="thin-file"></a>: The credit report of someone with little or no credit history, which may make it difficult to access credit.
 
 - **TIN Matching**<a id="tin-matching"></a>: - An IRS program that allows payers to match the tax identification number (TIN) of a business or individual to the IRS database when filing [1099](#1099) forms. This helps avoid penalties from filing invalid 1099s.
 
@@ -259,22 +275,26 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **unauthorized transaction**<a id="unauthorized-transaction"></a>: The use of a credit or debit card, or other method, to make a payment not authorized by the account holder, often the result of fraud or cybercrime. Note that this does not refer to an issuer declining authorization for payment on a transaction.
 
+- **underbanked**<a id="underbanked"></a>: Having a bank account, but lacking access to additional financial services such as credit cards or loans.
+
 - **under review**<a id="under-review"></a>: The payment processor practice of reviewing a potentially fraudulent or high-risk transaction prior to submission for processing, usually resulting in a minor delay.
 
 - **underwriter**<a id="underwriter"></a>: A party that evaluates and assumes another party’s risk for a fee.
 
+- **void transaction**<a id="void-transaction"></a>: A transaction that’s canceled after being approved, but before being settled. Voiding a transaction ultimately removes it from an account statement, unlike refunding.
+
 
 ## Sales
 
-- **CRM (Customer Relationship Management)**<a id="crm"></a>: One of many different approaches that allows a company to manage and analyse its own interactions with its past, current, and potential customers.
+- **customer relationship management (CRM)**<a id="crm"></a>: One of many different approaches that allows a company to manage and analyse its own interactions with its past, current, and potential customers.
 
 - **horizontal market**<a id="horizontal"></a>: A non-specialized market that doesn’t focus on a single niche and covers a wide range of industries (e.g., office supplies).
 
-- **LOI (Letter of Intent)**<a id="loi"></a>: A document declaring the preliminary commitment of one party to do business with another. The letter outlines the chief terms of a prospective deal.
+- **letter of intent (LOI)**<a id="loi"></a>: A document declaring the preliminary commitment of one party to do business with another. The letter outlines the chief terms of a prospective deal.
 
-- **MSA (Master Service Agreement)**<a id="msa"></a>: A contract reached between parties, in which the parties agree to most of the terms that will govern future transactions or future agreements. A master agreement permits the parties to quickly enact future transactions or agreements, negotiating only the points specific to the new transactions and relying on the provisions in the master agreement for common terms.
+- **master service agreement (MSA)**<a id="msa"></a>: A contract reached between parties, in which the parties agree to most of the terms that will govern future transactions or future agreements. A master agreement permits the parties to quickly enact future transactions or agreements, negotiating only the points specific to the new transactions and relying on the provisions in the master agreement for common terms.
 
-- **NDA (Non-Disclosure Agreement)**<a id="nda"></a>: A non-disclosure agreement is a legally binding contract that establishes a confidential relationship. The party or parties signing the agreement agree that sensitive information they may obtain will not be made available to any others.
+- **non-disclosure agreement (NDA)**<a id="nda"></a>: A non-disclosure agreement is a legally binding contract that establishes a confidential relationship. The party or parties signing the agreement agree that sensitive information they may obtain will not be made available to any others.
 
 - **vertical market**<a id="vertical"></a>: a market that focuses on a specific industry, sector, or audience (e.g., organic grocery products).
 
