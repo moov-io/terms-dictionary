@@ -73,6 +73,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **cash advance**<a id="cash-advance"></a>: An amount of cash advanced by a bank teller or ATM to a bank cardholder that is drawn against the cardholder’s line of credit.
 
+- **challenger bank**<a id="challenger-bank"></a>: Also called a neobank, this is a small, new, fully-digital bank that typically offers a mobile app and charges low fees. Neobanks aim to avoid the complexity of traditional banking and may partner with a licensed financial institution or be licensed themselves.
+
 - **chargeback**<a id="chargeback"></a>: A demand on behalf of a credit card issuer, on behalf of its cardholder, made to a retailer to reverse a payment based on a disputed transaction or instance of fraud.
 
 - **charge card**<a id="charge-card"></a>: A payment card very similar to a [credit card](#credit-card), except the full balance must be paid off each month, there's usually an annual fee, and there isn't a spending limit.
@@ -134,6 +136,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **ICL (Image Cash Letter)**<a id="icl"></a>: See [Check 21](#check-21).
 
 - **interchange fee**<a id="interchange"></a>: In credit card processing, this refers to the fees paid by the acquiring bank to the issuing bank to compensate for transaction-related costs. Card networks like Visa and Mastercard establish interchange fee rates, which vary by merchant size, merchant type, transaction amount, and card type.
+
+- **International Bank Account Number (IBAN)**<a id="iban"></a>: An alphanumeric code composed of up to 34 characters that identifies an individual account in an international transaction. 
 
 - **ISO (Independent Sales Organization)**<a id="iso-sales"></a>: In merchant services, this refers to an independent credit card processing company, often an approved entity reselling services from a larger company, such as First Data, under its own company name.
 
@@ -229,6 +233,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **remote deposit transfer**<a id="remote-deposit"></a>: The process of customers making deposits remotely by scanning checks, often using a mobile device.
 
+- **retrieval request**<a id="retrieval-request"></a>: Sent from an issuer to merchant, this is a request for detailed information regarding a completed transaction. This often occurs when there is potential for a [chargeback](#chargeback).
+
 - **return code**<a id="return-code"></a>: A notification of a payment return or correction for a business or user.
 
 - **risk management**<a id="risk-management"></a>: The process of identifying potential sources of risk and attempting to mitigate them. In payments, major types of risk include credit risk, fraud, and data security.
@@ -249,11 +255,15 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **standard entry class (SEC) code**<a id="sec"></a>: A three character code to identify the format and application of an ACH transaction.
 
-- **standard industrial code (SIC)**<a id="sic"></a>: A four-digit code assigned by the United States government that classifies industries and is used to identify the nature of a business.
+- **standard industrial classification (SIC) code**<a id="sic"></a>: A four-digit code assigned by the United States government that classifies industries and is used to identify the nature of a business.
+
+- **straight-through processing (STP)**<a id="stp"></a>: Payment processing that is completely free of human intervention, resulting in faster completion and fewer errors.
 
 - **terminal identification number (TID)**<a id="tid"></a>: Unique numerical identifier that denotes the specific point-of-sale device or computer where a payment transaction is initiated. It's used by merchants, card associations, and others to source the origin of fraud transactions.
 
 - **The Clearing House**<a id="tch"></a>: A banking association and payments company owned by large commercial banks that provides the only private-sector ACH ([EPN](#epn)) and wire ([CHIPS](#chips)) operators in the United States.
+
+- **thin file**<a id="thin-file"></a>: The credit report of someone with little or no credit history, which may make it difficult to access credit.
 
 - **TIN Matching**<a id="tin-matching"></a>: - An IRS program that allows payers to match the tax identification number (TIN) of a business or individual to the IRS database when filing [1099](#1099) forms. This helps avoid penalties from filing invalid 1099s.
 
@@ -265,9 +275,13 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **unauthorized transaction**<a id="unauthorized-transaction"></a>: The use of a credit or debit card, or other method, to make a payment not authorized by the account holder, often the result of fraud or cybercrime. Note that this does not refer to an issuer declining authorization for payment on a transaction.
 
+- **underbanked**<a id="underbanked"></a>: Having a bank account, but lacking access to additional financial services such as credit cards or loans.
+
 - **under review**<a id="under-review"></a>: The payment processor practice of reviewing a potentially fraudulent or high-risk transaction prior to submission for processing, usually resulting in a minor delay.
 
 - **underwriter**<a id="underwriter"></a>: A party that evaluates and assumes another party’s risk for a fee.
+
+- **void transaction**<a id="void-transaction"></a>: A transaction that’s canceled after being approved, but before being settled. Voiding a transaction ultimately removes it from an account statement, unlike refunding.
 
 
 ## Sales
