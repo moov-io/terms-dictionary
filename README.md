@@ -259,7 +259,7 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **RTP Request for Return of Funds**<a id="rtp-rfr"></a>: A payment-related message that a Sending Participant submits to the RTP System to request return of funds related to an RTP Payment.
 
-- **RTP Response to Request for Information**<a id="rtp-rrfi"></a>: A payment-related Request Response Message sent to answer with information requested by an [Request for Information Message](rtp-rfi).
+- **RTP Response to Request for Information**<a id="rtp-rrfi"></a>: A payment-related Request Response Message sent to answer with information requested by an [Request for Information Message](#rtp-rfi).
 
 - **RTP Response to Request for Payment**<a id="rtp-rrfp"></a>: A payment-related Response Request Message sent to answer with information requested by an [Request for Payment Message](#rtp-rfp).
 
