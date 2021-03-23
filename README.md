@@ -91,6 +91,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **commercial card**<a id="commercial-card"></a>: A generic term referring to payment cards issued to businesses for use by employees to cover expenses (e.g., corporate cards, travel cards, and entertainment cards).
 
+- **Control Messages (RTP)**<a id="control-messages_RTP"></a>: The basic multi-purpose Payment Message used for multiple use cases, including remittance information for RTP Transactions.
+
 - **credit bureau**<a id="credit-bureau"></a>: A company that collects, researches, and maintains credit information, and sells that data to lenders, creditors, and consumers as credit reports. Though there are many credit bureaus, the most recognizable are Equifax, Experian, and TransUnion.
 
 - **credit card**<a id="credit-card"></a>: A plastic card with a credit limit used to purchase goods and services and to obtain cash advances on credit for which a cardholder is subsequently billed by the [issuer](#issuer) for repayment of the credit extended.
@@ -100,6 +102,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **credit score**<a id="credit-score"></a>: A three-digit number that represents how likely a person is to pay back a loan based on their payment history. A higher score is better.
 
 - **currency transaction report (CTR)**<a id="ctr"></a>: A report that U.S. financial institutions are required to file for transfers greater than $10,000 as part of the [Bank Secrecy Act](#bsa).
+
+- **Credit Transfer (RTP)**<a id="credit-transfer_RTP"></a>: The basic multi-purpose Payment Message used for mulitple use cases, including remittance information for RTP Transactions.
 
 - **debit**<a id="debit"></a>: A charge to a customer’s deposit account.
 
@@ -120,6 +124,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **EMV**<a id="emv"></a>: A type of payment card technology that uses a chip to store data securely. EMV cards may be contact or contactless, and are a way to reduce card fraud. They typically require the cardholder to enter a PIN when making a transaction and most POS terminals today support EMV technology.
 
 - **Electronic Payments Network (EPN)**<a id="epn"></a>: Owned by The Clearing House and one of two ACH operators (the other is the Federal Reserve Bank). The EPN is responsible for ACH transaction switching among banks for the private sector.
+
+- **Event (RTP)**<a id="event_RTP"></a>: An exchange of related Transactions between two FIs through the RTP System that constitute a complete conversation. This could include one or more Transactions. For example (1) Request for Payment Transaction, followed by a (2) Credit Transfer Transaction, followed by (3) Payment Ackowledgement Transaction.
 
 - **faster payments**<a id="faster-payments"></a>: An umbrella term for payment solutions that are always available, offer immediate funds availability, and provide near-instant updates to both the sender and receiver. Examples include [RTP](#rtp) and [FedNow](#fednow).
 
@@ -155,6 +161,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **ledger**<a id="ledger"></a>: A book in which the monetary transactions of a business are posted in the form of debits and credits.
 
+- **Leg (RTP)**<a id="leg_RTP"></a>: A transmission from System an FI to the RTP or the RTP System to an FI. It should be noted that either FI may initiate a RTP Instruction
+
 - **magnetic ink character recognition (MICR)**<a id="micr"></a>: Banking numbers (routing/transit number, checking account number, check number) that appear at the bottom of a check and enable high-speed processing.
 
 - **merchant**<a id="merchant"></a>: A retailer, or any other person, firm, or corporation that, according to a Merchant Agreement signed with an Acquirer or Independent Sales Organization (ISO), agrees to accept credit cards, debit cards, or both, when properly presented.
@@ -162,6 +170,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **merchant category code (MCC)**<a id="mcc"></a>: A four-digit code that is assigned by credit card companies to merchants for tracking purposes.
 
 - **merchant identification number (MID)**<a id="mid"></a>: A number that numerically identifies each merchant to the merchant processor for accounting and billing purposes.
+
+- **Message (RTP)**<a id="Message_RTP"></a>: A transmission of an Instruction or of a Response from one FI to another FI through the RTP System.
 
 - **microdeposit**<a id="microdeposit"></a>: An account ownership verification tactic where a small amount is temporarily deposited into a user's bank account. The user must confirm the amount received. Once the user is verified, the microdeposits will be withdrawn from their account.
 
@@ -245,6 +255,18 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **Real-Time Payments (RTP)**<a id="rtp"></a>: Released in 2017, the RTP network from The Clearing House is a real-time payments platform that all federally insured U.S. depository institutions are eligible to use for payments innovation. It will soon compete with [FedNow](#fednow).
 
+- **Request for Information (RFI)**<a id="rfi_rtp"></a>: A Payment-related Message that a Receiving Partiicipant submits to the RTP System for delivery to Sending Participant to so it may request from a Customer additional information in connection with an RTP Payment or Request for Payment (RFP).
+
+- **Request for Payment (RFP)**<a id="rfp_rtp"></a>: A Payment-related Message that a Message Sender submits to the RTP System to for deliver to a Message Receiver to request an RTP Payment from a Customer of a Message Receiver.
+
+- **Request for Return of Funds (RFR)**<a id="rfr_rtp"></a>: A Payment-related Message that a Sending Participant submits to the RTP System to request return of funds related to an RTP Payment.
+
+- **Response to Request for Information (RFIR)**<a id="rfir_rtp"></a>: A Payment-related Request Response Message sent to answer with information requested by an RFI Message.
+
+- **Response to Request for Payment (RFPR)**<a id="rfpr_rtp"></a>: a Payment-related Response Request Message sent to answer with information requested by an RFP Message.
+
+- **Response to Request for Return of Funds (RFRR)**<a id="rfrr_rtp"></a>: A Payment-related Request Message Response that a Receiving Participant submits to the RTP System with information in response to a Request for Return of Funds (RFR).
+
 - **Same Day ACH**<a id="same-day-ach"></a>: Delivery of available funds within the same business day, not two to four.
 
 - **settlement**<a id="settlement"></a>: The actual movement of funds from one financial institution to another that completes a transaction.
@@ -263,11 +285,15 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **The Clearing House (TCH)**<a id="tch"></a>: A banking association and payments company owned by large commercial banks that provides the only private-sector ACH ([EPN](#epn)) and wire ([CHIPS](#chips)) operators in the United States.
 
+- **Third Party Service Provider (TPSP)**<a id="tpsp_rtp"></a>: A commercial data processing service organization, data transmission facility, or any other Participant that acts on behalf of a Participant, as such Participant's agent, to transmit and receive Payment Messages, Payment Message Responses and Non-Payment Messages through the RTP System.
+
 - **thin file**<a id="thin-file"></a>: The credit report of someone with little or no credit history, which may make it difficult to access credit.
 
 - **TIN Matching**<a id="tin-matching"></a>: - An IRS program that allows payers to match the tax identification number (TIN) of a business or individual to the IRS database when filing [1099](#1099) forms. This helps avoid penalties from filing invalid 1099s.
 
 - **trace ID**<a id="trace-id"></a>: A unique reference number assigned to each ACH entry, also known as a "trace number", which can be used to “trace” the location of the transfer.
+
+- **Transaction (RTP)**<a id="transaction_RTP"></a>: A full round-trip of an Instruction and Response Messages. All Payment Transactions have 5 Legs including the Payee's FI Confirmation Leg. Payment-related Transactions have 4 Legs and RTP Control Messages have 2 Legs.
 
 - **ultimate creditor**<a id="ultimate-creditor"></a>: Party that is the ultimate beneficiary of a payment. For example the payment is credited to an account of a financing company, but the ultimate beneficiary is the customer of the financing company.
 
