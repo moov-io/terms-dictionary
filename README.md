@@ -91,6 +91,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **commercial card**<a id="commercial-card"></a>: A generic term referring to payment cards issued to businesses for use by employees to cover expenses (e.g., corporate cards, travel cards, and entertainment cards).
 
+- **counterparty**<a id="counterparty"></a>: The entity on the opposite side of any financial transaction.
+
 - **credit bureau**<a id="credit-bureau"></a>: A company that collects, researches, and maintains credit information, and sells that data to lenders, creditors, and consumers as credit reports. Though there are many credit bureaus, the most recognizable are Equifax, Experian, and TransUnion.
 
 - **credit card**<a id="credit-card"></a>: A plastic card with a credit limit used to purchase goods and services and to obtain cash advances on credit for which a cardholder is subsequently billed by the [issuer](#issuer) for repayment of the credit extended.
@@ -213,6 +215,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **point-of-sale (POS)**<a id="point-of-sale"></a>: The specific time and place where a retail transaction is completed.
 
+- **positive pay**<a id="positive-pay"></a>: A fraud-prevention system often used by enterprises to match checks presented for payment against a list of issued checks kept by the company.
+
 - **prepaid card**<a id="prepaid-card"></a>: A payment card that is not linked to a bank account, where the cardholder can only spend up to the amount that has been pre-deposited onto the card. Prepaid cards are often reloadable.
 
 - **primary account number (PAN)**<a id="pan"></a>: Numerical code, up to 16 digits, uniquely identifying a credit cardholder’s account, created when the account is opened. The first six numbers identify the card network, the next set of digits signifies the cardholder, and the remaining digits are used for security purposes. A primary account number starts with the [bank identification number (BIN)](#bin).
@@ -304,6 +308,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **under review**<a id="under-review"></a>: The payment processor practice of reviewing a potentially fraudulent or high-risk transaction prior to submission for processing, usually resulting in a minor delay.
 
 - **underwriter**<a id="underwriter"></a>: A party that evaluates and assumes another party’s risk for a fee.
+
+- **value-added reseller (VAR)**<a id="var"></a>: An entity that resells a product after adding some additional value, often in the form of warranties, customer support, consultations, or integration with other products.
 
 - **void transaction**<a id="void-transaction"></a>: A transaction that’s canceled after being approved, but before being settled. Voiding a transaction ultimately removes it from an account statement, unlike refunding.
 
