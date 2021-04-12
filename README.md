@@ -83,6 +83,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **Check 21 Act**<a id="check-21"></a>: A federal law that allows banks to create equivalent electronic images of paper checks for faster processing. The process of creating a check image is called "check truncation", while the electronic copy itself is called a "substitute check" or "image cash letter (ICL)".
 
+- **checking account**<a id="checking-account"></a>: Allows for easy access to funds and often comes bundled with a debit card and checks. No minimum balance is required. Also called a demand deposit account (DDA).
+
 - **check verification**<a id="check-verification"></a>: A database service provided to merchants, businesses, and individuals to verify a check writer has a valid checking account and does not have a history of writing bad checks. This is not a guarantee of payment to the merchant.
 
 - **CHIPS (Clearing House Interbank Payments System)**<a id="chips"></a>: Owned by [The Clearing House](#tch), this is a private-sector alternative to [Fedwire](#fedwire) that clears payments on a net basis and is less expensive than Fedwire.
@@ -168,6 +170,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **microdeposit**<a id="microdeposit"></a>: An account ownership verification tactic where a small amount is temporarily deposited into a user's bank account. The user must confirm the amount received. Once the user is verified, the microdeposits will be withdrawn from their account.
 
 - **mobile wallet**<a id="mobile-wallet"></a>: A type of [digital wallet](#digital-wallet), this is a software application usually used in conjunction with a mobile payment system to facilitate electronic payments using a smartphone for online transactions as well as purchases at physical stores. Mobile wallets need to be linked to a user’s bank or credit card account.
+
+- **money market deposit account (MMDA)**<a id="mmda"></a>: Often considered a hybrid between a checking and savings account, it provides check writing and debit card privileges with limited access to funds. It has both a higher interest rate and minimum required balance than a savings account.
 
 - **NACHA (National Automated Clearing House Association)**<a id="nacha"></a>: A nonprofit that manages the ACH network and is composed of various depository financial institutions. NACHA's role is to make rules and products for the ACH payment system and is not directly involved in transaction processing.
 
@@ -274,6 +278,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **RTP Transaction**<a id="rtp-transaction"></a>: A full round trip of Instruction and Response messages. All Payment Transactions have five [legs](#rtp-leg) including the payee's financial institution confirmation leg. Payment-related Transactions have four legs and RTP Control Messages have two legs.
 
 - **Same Day ACH**<a id="same-day-ach"></a>: Delivery of available funds within the same business day, not two to four.
+
+- **savings account**<a id="savings-account"></a>: An interest-bearing account that offers limited access to funds to encourage savings goals. A minimum balance may be required.
 
 - **settlement**<a id="settlement"></a>: The actual movement of funds from one financial institution to another that completes a transaction.
 
