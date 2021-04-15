@@ -83,6 +83,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **Check 21 Act**<a id="check-21"></a>: A federal law that allows banks to create equivalent electronic images of paper checks for faster processing. The process of creating a check image is called "check truncation", while the electronic copy itself is called a "substitute check" or "image cash letter (ICL)".
 
+- **checking account**<a id="checking-account"></a>: Allows for easy access to funds and often comes bundled with a debit card and checks. No minimum balance is required. Also called a demand deposit account (DDA).
+
 - **check verification**<a id="check-verification"></a>: A database service provided to merchants, businesses, and individuals to verify a check writer has a valid checking account and does not have a history of writing bad checks. This is not a guarantee of payment to the merchant.
 
 - **CHIPS (Clearing House Interbank Payments System)**<a id="chips"></a>: Owned by [The Clearing House](#tch), this is a private-sector alternative to [Fedwire](#fedwire) that clears payments on a net basis and is less expensive than Fedwire.
@@ -90,6 +92,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **closed loop payment system**<a id="closed-loop"></a>: Closed loop payment systems operate without intermediaries, where the end parties have a direct relationship with the payments system.
 
 - **commercial card**<a id="commercial-card"></a>: A generic term referring to payment cards issued to businesses for use by employees to cover expenses (e.g., corporate cards, travel cards, and entertainment cards).
+
+- **counterparty**<a id="counterparty"></a>: The entity on the opposite side of any financial transaction.
 
 - **credit bureau**<a id="credit-bureau"></a>: A company that collects, researches, and maintains credit information, and sells that data to lenders, creditors, and consumers as credit reports. Though there are many credit bureaus, the most recognizable are Equifax, Experian, and TransUnion.
 
@@ -167,6 +171,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **mobile wallet**<a id="mobile-wallet"></a>: A type of [digital wallet](#digital-wallet), this is a software application usually used in conjunction with a mobile payment system to facilitate electronic payments using a smartphone for online transactions as well as purchases at physical stores. Mobile wallets need to be linked to a user’s bank or credit card account.
 
+- **money market deposit account (MMDA)**<a id="mmda"></a>: Often considered a hybrid between a checking and savings account, it provides check writing and debit card privileges with limited access to funds. It has both a higher interest rate and minimum required balance than a savings account.
+
 - **NACHA (National Automated Clearing House Association)**<a id="nacha"></a>: A nonprofit that manages the ACH network and is composed of various depository financial institutions. NACHA's role is to make rules and products for the ACH payment system and is not directly involved in transaction processing.
 
 - **non-sufficient funds (NSF)**<a id="nsf"></a>: Occurs when a payment is attempted, but there aren’t enough funds in the account to cover it entirely. This commonly results in a fee and a canceled, or “bounced” payment. If the bank doesn’t cancel and covers the payment, it’s known as [overdraft](#overdraft).
@@ -212,6 +218,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **personal identification number (PIN)**<a id="pin"></a>: A confidential individual number or code used by a cardholder to authenticate card ownership for ATM or POS-terminal transactions.
 
 - **point-of-sale (POS)**<a id="point-of-sale"></a>: The specific time and place where a retail transaction is completed.
+
+- **positive pay**<a id="positive-pay"></a>: A fraud-prevention system often used by enterprises to match checks presented for payment against a list of issued checks kept by the company.
 
 - **prepaid card**<a id="prepaid-card"></a>: A payment card that is not linked to a bank account, where the cardholder can only spend up to the amount that has been pre-deposited onto the card. Prepaid cards are often reloadable.
 
@@ -271,6 +279,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **Same Day ACH**<a id="same-day-ach"></a>: Delivery of available funds within the same business day, not two to four.
 
+- **savings account**<a id="savings-account"></a>: An interest-bearing account that offers limited access to funds to encourage savings goals. A minimum balance may be required.
+
 - **settlement**<a id="settlement"></a>: The actual movement of funds from one financial institution to another that completes a transaction.
 
 - **skimming**<a id="skimming"></a>: A type of fraud, where a device called a skimmer is placed over a legitimate card reader and captures info when a user unknowingly swipes their card through.
@@ -304,6 +314,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 - **under review**<a id="under-review"></a>: The payment processor practice of reviewing a potentially fraudulent or high-risk transaction prior to submission for processing, usually resulting in a minor delay.
 
 - **underwriter**<a id="underwriter"></a>: A party that evaluates and assumes another party’s risk for a fee.
+
+- **value-added reseller (VAR)**<a id="var"></a>: An entity that resells a product after adding some additional value, often in the form of warranties, customer support, consultations, or integration with other products.
 
 - **void transaction**<a id="void-transaction"></a>: A transaction that’s canceled after being approved, but before being settled. Voiding a transaction ultimately removes it from an account statement, unlike refunding.
 
