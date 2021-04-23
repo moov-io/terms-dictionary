@@ -139,11 +139,13 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **image cash letter (ICL)**<a id="icl"></a>: See [Check 21](#check-21).
 
+- **independent sales organization (ISO)**<a id="iso-sales"></a>: In merchant services, this refers to an independent credit card processing company, often an approved entity reselling services from a larger company, such as First Data, under its own company name.
+
+- **instant account verification (IAV)**<a id="instant-account-verification"></a>: An account ownership verification tactic where a user provides credentials for their financial institution, and an automated process signs in on their behalf to retrieve account information. See also [microdeposit](#microdeposit).
+
 - **interchange fee**<a id="interchange"></a>: In credit card processing, this refers to the fees paid by the acquiring bank to the issuing bank to compensate for transaction-related costs. Card networks like Visa and Mastercard establish interchange fee rates, which vary by merchant size, merchant type, transaction amount, and card type.
 
 - **international bank account number (IBAN)**<a id="iban"></a>: An alphanumeric code composed of up to 34 characters that identifies an individual account in an international transaction. 
-
-- **independent sales organization (ISO)**<a id="iso-sales"></a>: In merchant services, this refers to an independent credit card processing company, often an approved entity reselling services from a larger company, such as First Data, under its own company name.
 
 - **International Organization for Standardization (ISO)**<a id="iso-standards"></a>: An international standard setting organization involved in everything from food safety to financial services. As ISO puts it, a standard is "a formula that describes the best way of doing something". Notable financial standards are ISO 8583 and ISO 20022.
 
@@ -167,11 +169,13 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **merchant identification number (MID)**<a id="mid"></a>: A number that numerically identifies each merchant to the merchant processor for accounting and billing purposes.
 
-- **microdeposit**<a id="microdeposit"></a>: An account ownership verification tactic where a small amount is temporarily deposited into a user's bank account. The user must confirm the amount received. Once the user is verified, the microdeposits will be withdrawn from their account.
+- **microdeposit**<a id="microdeposit"></a>: An account ownership verification tactic where a small amount is temporarily deposited into a user's bank account. The user must confirm the amount received. Once the user is verified, the microdeposits will be withdrawn from their account. See [instant account verification](#instant-account-verification).
 
 - **mobile wallet**<a id="mobile-wallet"></a>: A type of [digital wallet](#digital-wallet), this is a software application usually used in conjunction with a mobile payment system to facilitate electronic payments using a smartphone for online transactions as well as purchases at physical stores. Mobile wallets need to be linked to a user’s bank or credit card account.
 
 - **money market deposit account (MMDA)**<a id="mmda"></a>: Often considered a hybrid between a checking and savings account, it provides check writing and debit card privileges with limited access to funds. It has both a higher interest rate and minimum required balance than a savings account.
+
+- **money service business (MSB)**<a id="money-service-business"></a>: A broad term that encompasses any organization that transmits or converts money. Examples include banks, check cashing providers, and foreign currency exchanges. These organizations are regulated to prevent money laundering.
 
 - **NACHA (National Automated Clearing House Association)**<a id="nacha"></a>: A nonprofit that manages the ACH network and is composed of various depository financial institutions. NACHA's role is to make rules and products for the ACH payment system and is not directly involved in transaction processing.
 
