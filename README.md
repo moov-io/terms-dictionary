@@ -105,6 +105,8 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 
 - **currency transaction report (CTR)**<a id="ctr"></a>: A report that U.S. financial institutions are required to file for transfers greater than $10,000 as part of the [Bank Secrecy Act](#bsa).
 
+- **customer identification program (CIP)**<a id="cip"></a>: Financial institution procedures for proper [KYC](#kyc)/[KYB](#kyb) vetting. Required by the 2003 USA Patriot Act.
+
 - **debit**<a id="debit"></a>: A charge to a customer’s deposit account.
 
 - **debit card**<a id="debit-card"></a>: A plastic card used to purchase goods and services, where payments are made directly from the cardholder's checking account.
