@@ -1,13 +1,13 @@
 # Dictionary of Key Terms and Acronyms
 
-Below are some simple definitions of terms, acronyms, abbreviations, companies, and projects related to financial services and Moov. This is not a complete list, so please feel free to submit a pull request adding a new term with a definition!
+Below are some simple definitions of terms, acronyms, companies, and projects related to financial services and Moov. This is not a complete list, so please feel free to submit a pull request adding a new term with a definition!
 
-## Table of contents
-- [Banking and payments](#banking-and-payments)
+## Table of Contents
+- [Banking and Payments](#banking-and-payments)
 - [Sales](#sales)
-- [Software and technology](#software-and-technology)
-- [ACH standard entry class codes](#ach-standard-entry-class-codes)
-- [Moov's open source projects](#moovs-open-source-projects)
+- [Software and Technology](#software-and-technology)
+- [ACH SEC Codes](#ach-standard-entry-class-codes)
+- [Moov's Open Source Projects](#moovs-open-source-projects)
 
 ## Banking and Payments
 
@@ -432,22 +432,22 @@ Below are some simple definitions of terms, acronyms, abbreviations, companies, 
 ## Moov's Open Source Projects
 As part of Moov's initiative to offer open source fintech infrastructure, we have a large collection of active projects you may find useful:
 
-- [**Moov ACH**](https://github.com/moov-io/ach) provides ACH file generation and parsing, supporting all Standard Entry Codes for the primary method of money movement throughout the United States.
+- [**Moov ACH**](https://github.com/moov-io/ach): provides ACH file generation and parsing, supporting all Standard Entry Codes for the primary method of money movement throughout the United States.
 
-- [**Moov Fed**](https://github.com/moov-io/fed) implements utility services for searching the United States Federal Reserve System such as ABA routing numbers, financial institution name lookup, and FedACH and Fedwire routing information.
+- [**Moov Fed**](https://github.com/moov-io/fed): implements utility services for searching the United States Federal Reserve System such as ABA routing numbers, financial institution name lookup, and FedACH and Fedwire routing information.
 
-- [**Moov Image Cash Letter**](https://github.com/moov-io/imagecashletter) implements Image Cash Letter (ICL) files used for Check21, X.9 or check truncation files for exchange and remote deposit in the U.S.
+- [**Moov Image Cash Letter**](https://github.com/moov-io/imagecashletter): implements Image Cash Letter (ICL) files used for Check21, X.9 or check truncation files for exchange and remote deposit in the U.S.
 
-- [**Moov IRS***](https://github.com/moov-io/irs) implements a reader and writer for IRS FIRE (Filing Information Returns Electronically).
+- [**Moov IRS***](https://github.com/moov-io/irs): implements a reader and writer for IRS FIRE (Filing Information Returns Electronically).
 
-- [**Moov ISO 8583***](https://github.com/moov-io/iso8583) offers a message reader and writer for ISO 8583, a widely used, international standard for card-originated financial transactions that defines both message format and communication flow.
+- [**Moov ISO 8583***](https://github.com/moov-io/iso8583): offers a message reader and writer for ISO 8583, a widely used, international standard for card-originated financial transactions that defines both message format and communication flow.
 
-- [**Moov ISO 20022***](https://github.com/moov-io/iso20022) offers a message reader and writer for ISO 20022, a modern standard for electronic data interchange between financial institutions.
+- [**Moov ISO 20022***](https://github.com/moov-io/iso20022): offers a message reader and writer for ISO 20022, a modern standard for electronic data interchange between financial institutions.
 
-- [**Moov Metro 2***](https://github.com/moov-io/metro2) provides a way to easily read, create, and validate Metro 2 format, which is used for consumer credit history reporting by the United States credit bureaus.
+- [**Moov Metro 2***](https://github.com/moov-io/metro2): provides a way to easily read, create, and validate Metro 2 format, which is used for consumer credit history reporting by the United States credit bureaus.
 
-- [**Moov Watchman**](https://github.com/moov-io/watchman) offers search functions over numerous trade sanction lists from the United States and European Union.
+- [**Moov Watchman**](https://github.com/moov-io/watchman): offers search functions over numerous trade sanction lists from the United States and European Union.
 
-- [**Moov Wire**](https://github.com/moov-io/wire) implements an interface to write files for the Fedwire Funds Service, a real-time gross settlement funds transfer system operated by the United States Federal Reserve Banks.
+- [**Moov Wire**](https://github.com/moov-io/wire): implements an interface to write files for the Fedwire Funds Service, a real-time gross settlement funds transfer system operated by the United States Federal Reserve Banks.
 
 \* These projects are still in the early stages of development.
