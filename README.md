@@ -2,6 +2,12 @@
 
 Below are some simple definitions of terms, acronyms, abbreviations, companies, and projects related to financial services and Moov. This is not a complete list, so please feel free to submit a pull request adding a new term with a definition!
 
+## Table of contents
+- [Banking and payments](#banking-and-payments)
+- [Sales](#sales)
+- [Software and technology](#software-and-technology)
+- [ACH standard entry class codes](#ach-standard-entry-class-codes)
+- [Moov's open source projects](#moovs-open-source-projects)
 
 ## Banking and Payments
 
