@@ -95,6 +95,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **CHIPS (Clearing House Interbank Payments System)**<a id="chips"></a>: Owned by [The Clearing House](#tch), this is a private-sector alternative to [Fedwire](#fedwire) that clears payments on a net basis and is less expensive than Fedwire.
 
+- **clearing**<a id="clearing"></a>: The process for reconciling a financial transfer by exchanging transaction details. This process provides a layer of protection for all parties involved in a transaction by recording financial details and validating the availability of fund.
+
 - **closed loop payment system**<a id="closed-loop"></a>: Closed loop payment systems operate without intermediaries, where the end parties have a direct relationship with the payments system.
 
 - **commercial card**<a id="commercial-card"></a>: A generic term referring to payment cards issued to businesses for use by employees to cover expenses (e.g., corporate cards, travel cards, and entertainment cards).
@@ -121,6 +123,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **digital wallet**<a id="digital-wallet"></a>: Also known as an eWallet, this refers to a software application usually used in conjunction with a mobile payment system to facilitate electronic payments using a computer or smartphone for online transactions as well as purchases at physical stores. Digital wallets need to be linked to the user’s bank account.
 
+- **discount rate**<a id="discount rate"></a>: The interest rate that gets charged to the merchant by the acquiring bank (this is in addition to the interchange fee).
+
 - **doing business as (DBA)**<a id="dba"></a>: This term refers to a secondary name (also known as an assumed name, fictitious business name, or trade name) that is legally associated with a company and can be used to open bank accounts, write checks, enter into contracts, and for other business purposes. That company must lawfully file this secondary name or faces fines and penalties. A sole proprietor is usually required to file for a DBA, while for large organizations with multiple businesses and brands, a DBA helps identify the true ownership, for legal purposes.
 
 - **Data Security Standard (DSS)**<a id="dss"></a>: Also referred to as the Payment Card Industry Data Security Standard (PCI DSS), this is a common set of information security policies and procedures for use by entities that handle credit card data (basically, any organization that accepts, processes, stores, or transmits credit card information) to protect that data and prevent misuse of cardholders’ personal information.
@@ -145,6 +149,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **hold**<a id="hold"></a>: When a final transaction total is uncertain, as in a hotel stay, an authorization hold is placed on a portion of the cardholder’s credit limit or debit balance as a pledge of collateral. Once the full amount of the transaction is determined, usually at checkout, the card is charged and the hold is removed.
 
+- **idempotency**<a id="idempotency"></a>: A property that prevents the replication of transfers in the case of unintended repeated submissions. 
+
 - **image cash letter (ICL)**<a id="icl"></a>: See [Check 21](#check-21).
 
 - **independent sales organization (ISO)**<a id="iso-sales"></a>: In merchant services, this refers to an independent credit card processing company, often an approved entity reselling services from a larger company, such as First Data, under its own company name.
@@ -158,6 +164,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **International Organization for Standardization (ISO)**<a id="iso-standards"></a>: An international standard setting organization involved in everything from food safety to financial services. As ISO puts it, a standard is "a formula that describes the best way of doing something". Notable financial standards are ISO 8583 and ISO 20022.
 
 - **issuer / issuing bank**<a id="issuer"></a>: A financial institution, such as a bank or a credit union, which offers a payment card (credit or debit cards) directly to consumers (or organizations) and is liable for the use of the card. The issuer is also responsible for the billing and collecting of funds for purchases that were made using that card. In the payments value chain, the card issuer pays the acquiring bank for purchases of goods and services made by the cardholder. The cardholder then repays the issuing bank based on terms of an existing agreement.
+
+- **issuer processor**<a id="issuer processor"></a>: An financial/technological intermediary that connects to card networks and issuing banks to provide a way to authorize transactions and manage financial records, settlement, and card issuing.
 
 - **issuer identification number (IIN)**<a id="iin"></a>: See [BIN](#bin).
 
@@ -184,6 +192,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **money market deposit account (MMDA)**<a id="mmda"></a>: Often considered a hybrid between a checking and savings account, it provides check writing and debit card privileges with limited access to funds. It has both a higher interest rate and minimum required balance than a savings account.
 
 - **money service business (MSB)**<a id="money-service-business"></a>: A broad term that encompasses any organization that transmits or converts money. Examples include banks, check cashing providers, and foreign currency exchanges. These organizations are regulated to prevent money laundering.
+
+- **Money Transmitter License (MTL)**<a id="money-transmitter-license"></a>: A license for conducting money transfer services that is defined at the US state level. Many states require payments-related institutions to become a registered money transmitter by obtaining a license to operate in that particular state.
 
 - **NACHA (National Automated Clearing House Association)**<a id="nacha"></a>: A nonprofit that manages the ACH network and is composed of various depository financial institutions. NACHA's role is to make rules and products for the ACH payment system and is not directly involved in transaction processing.
 
@@ -226,6 +236,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **payment method**<a id="payment-method"></a>: The form of payment a consumer uses to purchase goods or services from a seller (e.g., cash, credit card, debit card, money order, bank transfer).
 
 - **payment service provider (PSP)**<a id="psp"></a>: A payment service provider is a third party that provides merchants the ability to accept electronic payments, enabling connectivity to financial institutions and credit card acquirers.
+
+- **PCI (Payment Card Industry) compliance**<a id="PCI compliance"></a>: Adherence to the security regulations set by the Payment Card Industry Data Security Standard (PCI DSS). PCI compliance is crucial for maintaining the ability to make card transactions and avoiding penalties.
 
 - **personal identification number (PIN)**<a id="pin"></a>: A confidential individual number or code used by a cardholder to authenticate card ownership for ATM or POS-terminal transactions.
 
