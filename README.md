@@ -165,7 +165,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **issuer / issuing bank**<a id="issuer"></a>: A financial institution, such as a bank or a credit union, which offers a payment card (credit or debit cards) directly to consumers (or organizations) and is liable for the use of the card. The issuer is also responsible for the billing and collecting of funds for purchases that were made using that card. In the payments value chain, the card issuer pays the acquiring bank for purchases of goods and services made by the cardholder. The cardholder then repays the issuing bank based on terms of an existing agreement.
 
-- **issuer processor**<a id="issuer processor"></a>: An financial/technological intermediary that connects to card networks and issuing banks to provide a way to authorize transactions and manage financial records, settlement, and card issuing.
+- **issuer processor**<a id="issuer processor"></a>: A financial/technological intermediary that connects to card networks and issuing banks to provide a way to authorize transactions and manage financial records, settlement, and card issuing.
 
 - **issuer identification number (IIN)**<a id="iin"></a>: See [BIN](#bin).
 
