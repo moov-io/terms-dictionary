@@ -193,7 +193,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **money service business (MSB)**<a id="money-service-business"></a>: A broad term that encompasses any organization that transmits or converts money. Examples include banks, check cashing providers, and foreign currency exchanges. These organizations are regulated to prevent money laundering.
 
-- ***Money Transmitter License (MTL)**<a id="money-transmitter-license"></a>: A license for conducting money transfer services that is defined at the US state level. Many states require payments-related institutions to become a registered money transmitter by obtaining a license to operate in that particular state.
+- **Money Transmitter License (MTL)**<a id="money-transmitter-license"></a>: A license for conducting money transfer services that is defined at the US state level. Many states require payments-related institutions to become a registered money transmitter by obtaining a license to operate in that particular state.
 
 - **NACHA (National Automated Clearing House Association)**<a id="nacha"></a>: A nonprofit that manages the ACH network and is composed of various depository financial institutions. NACHA's role is to make rules and products for the ACH payment system and is not directly involved in transaction processing.
 
