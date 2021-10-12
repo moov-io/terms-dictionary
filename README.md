@@ -95,9 +95,9 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **CHIPS (Clearing House Interbank Payments System)**<a id="chips"></a>: Owned by [The Clearing House](#tch), this is a private-sector alternative to [Fedwire](#fedwire) that clears payments on a net basis and is less expensive than Fedwire.
 
-- **clearing**<a id="clearing"></a>: The process for reconciling a financial transfer by exchanging transaction details. This process provides a layer of protection for all parties involved in a transaction by recording financial details and validating the availability of fund.
+- **clearing**<a id="clearing"></a>: The process for reconciling a financial transfer by exchanging transaction details. This process provides a layer of protection for all parties involved in a transaction by recording financial details and validating the availability of funds.
 
-- **closed loop payment system**<a id="closed-loop"></a>: Closed loop payment systems operate without intermediaries, where the end parties have a direct relationship with the payments system.
+- **closed-loop payment system**<a id="closed-loop"></a>: Closed loop payment systems operate without intermediaries, where the end parties have a direct relationship with the payments system.
 
 - **commercial card**<a id="commercial-card"></a>: A generic term referring to payment cards issued to businesses for use by employees to cover expenses (e.g., corporate cards, travel cards, and entertainment cards).
 
@@ -155,7 +155,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **independent sales organization (ISO)**<a id="iso-sales"></a>: In merchant services, this refers to an independent credit card processing company, often an approved entity reselling services from a larger company, such as First Data, under its own company name.
 
-- **instant account verification (IAV)**<a id="instant-account-verification"></a>: An account ownership verification tactic where a user provides credentials for their financial institution, and an automated process signs in on their behalf to retrieve account information. See also [microdeposit](#microdeposit).
+- **instant account verification (IAV)**<a id="instant-account-verification"></a>: An account ownership verification tactic where a user provides credentials for their financial institution, and an automated process signs in on their behalf to retrieve account information. See also [micro-deposit](#micro-deposit).
 
 - **interchange fee**<a id="interchange"></a>: In credit card processing, this refers to the fees paid by the acquiring bank to the issuing bank to compensate for transaction-related costs. Card networks like Visa and Mastercard establish interchange fee rates, which vary by merchant size, merchant type, transaction amount, and card type.
 
@@ -191,13 +191,13 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **money market deposit account (MMDA)**<a id="mmda"></a>: Often considered a hybrid between a checking and savings account, it provides check writing and debit card privileges with limited access to funds. It has both a higher interest rate and minimum required balance than a savings account.
 
-- **money service business (MSB)**<a id="money-service-business"></a>: A broad term that encompasses any organization that transmits or converts money. Examples include banks, check cashing providers, and foreign currency exchanges. These organizations are regulated to prevent money laundering.
+- **money service business (MSB)**<a id="money-service-business"></a>: A broad term that encompasses any organization that transmits or converts money. Examples include banks, check-cashing providers, and foreign currency exchanges. These organizations are regulated to prevent money laundering.
 
 - **Money Transmitter License (MTL)**<a id="money-transmitter-license"></a>: A license for conducting money transfer services that is defined at the US state level. Many states require payments-related institutions to become a registered money transmitter by obtaining a license to operate in that particular state.
 
 - **NACHA (National Automated Clearing House Association)**<a id="nacha"></a>: A nonprofit that manages the ACH network and is composed of various depository financial institutions. NACHA's role is to make rules and products for the ACH payment system and is not directly involved in transaction processing.
 
-- **non-sufficient funds (NSF)**<a id="nsf"></a>: Occurs when a payment is attempted, but there aren’t enough funds in the account to cover it entirely. This commonly results in a fee and a canceled, or “bounced” payment. If the bank doesn’t cancel and covers the payment, it’s known as [overdraft](#overdraft).
+- **non-sufficient funds (NSF)**<a id="nsf"></a>: Occurs when a payment is attempted, but there aren’t enough funds in the account to cover it entirely. This commonly results in a fee and a canceled, or “bounced” payment. If the bank doesn’t cancel and covers the payment, it’s known as an [overdraft](#overdraft).
 
 - **ODFI (Originating Depository Financial Institution)**<a id="odfi"></a>: An ODFI transmits ACH entries to an ACH operator on behalf of an originator, crediting or debiting their account as needed. Each ODFI warrants that the transaction is properly authorized and complies with the NACHA Operating Rules.
 
@@ -205,11 +205,11 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **offline debit transaction**<a id="offline-debit"></a>: Also known as a signature-debit transaction, this is a payment method utilizing a debit card to transfer funds from the cardholder’s bank account to a merchant via a credit card network, processing in much the same way as a credit card transaction (funds are not debited immediately). An interchange fee is charged to the merchant and not the card-issuing bank.
 
-- **online debit transaction**<a id="online-debit"></a>: Also known as a PIN-debit transaction, this is a payment method utilizing a debit card to transfer funds from a cardholder's bank account to a merchant on the ATM network of the cardholder's bank, such as STAR. Funds are deducted from the cardholder’s bank account immediately once the card is inserted/swiped at the point-of-sale.
+- **online debit transaction**<a id="online-debit"></a>: Also known as a PIN-debit transaction, this is a payment method utilizing a debit card to transfer funds from a cardholder's bank account to a merchant on the ATM network of the cardholder's bank, such as STAR. Funds are deducted from the cardholder’s bank account immediately once the card is inserted/swiped at the point of sale.
 
-- **on-us transaction**<a id="online-debit"></a>: A transaction where the sender and receiver banks are the same, resulting in less fees for the bank.
+- **on-us transaction**<a id="online-debit"></a>: A transaction where the sender and receiver banks are the same, resulting in fewer fees for the bank.
 
-- **open loop payment system**<a id="open-loop"></a>: Open loop payment systems operate on a hub-and-spoke model requiring intermediaries (almost always banks or depository financial institutions) to join the payments system, then form business relationships with end parties.
+- **open-loop payment system**<a id="open-loop"></a>: Open-loop payment systems operate on a hub-and-spoke model requiring intermediaries (almost always banks or depository financial institutions) to join the payments system, then form business relationships with end parties.
 
 - **origination**<a id="origination"></a>: This is the up-front, multi-step process by which a consumer or borrower applies for a new loan or credit card, and the lender or card issuer processes that application, covering all steps from application submission through approval/denial.
 
@@ -221,7 +221,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **P2P (Peer-to-Peer)**<a id="p2p"></a>: Payments that involve the transfer of funds between two different parties’ accounts. These accounts may be at the same or different financial institutions. Examples of P2P include Venmo, Zelle, and Cash App.
 
-- **partial authorization**<a id="partial-authorization"></a>: During a transaction, when the purchase amount exceeds the cardholder’s credit limit, the issuer can return a partial authorization for funds only up to the amount of the limit. At the point-of-sale, the merchant then requests an additional method of payment to cover the outstanding balance of the transaction.
+- **partial authorization**<a id="partial-authorization"></a>: During a transaction, when the purchase amount exceeds the cardholder’s credit limit, the issuer can return a partial authorization for funds only up to the amount of the limit. At the point of sale, the merchant then requests an additional method of payment to cover the outstanding balance of the transaction.
 
 - **payment**<a id="payment"></a>: The transfer of value from one end party to another.
 
@@ -229,7 +229,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **Payment for Order Flow (PFOF)**<a id="pfof"></a>: A payment by an exchange to a brokerage firm for the right to execute a given trade.  While this is a controversial practice, the net result is often price improvement for the trader, relative to the price on the public exchange.
 
-- **payment gateway**<a id="payment-gateway"></a>: An Internet-based system used in an ecommerce transaction for the transfer of credit card information from a computer or website to a credit card processor for verification, completing the authorization process between the merchant and the consumer.
+- **payment gateway**<a id="payment-gateway"></a>: An Internet-based system used in an e-commerce transaction for the transfer of credit card information from a computer or website to a credit card processor for verification, completing the authorization process between the merchant and the consumer.
 
 - **payment message structure (ISO 20022)**<a id="payment-message-iso20022"></a>: An ISO 20022 payment initiation message is composed of three parts: Group Header, Payment Information, and Credit Transfer Transaction Information.
 
@@ -277,9 +277,9 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **RTP (Real-Time Payments)**<a id="rtp"></a>: Released in 2017, the RTP network from The Clearing House is a real-time payments platform that all federally insured U.S. depository institutions are eligible to use for payments innovation. It will soon compete with [FedNow](#fednow).
 
-- **RTP Credit Transfer**<a id="rtp-credit-transfer"></a>: The basic multi-purpose payment message used for multiple use cases, including remittance information for [RTP Transactions](#rtp-transaction).
+- **RTP Credit Transfer**<a id="rtp-credit-transfer"></a>: The basic multi-purpose payment message used for multiple use cases, including remittance information for [RTP transactions](#rtp-transaction).
 
-- **RTP Event**<a id="rtp-event"></a>: An exchange of related [Transactions](#rtp-transaction) between two financial institutions through the RTP System that constitute a complete conversation. This could include one or more Transactions. For example, a (1) Request for Payment Transaction, followed by a (2) Credit Transfer Transaction, followed by a (3) Payment Acknowledgement Transaction.
+- **RTP Event**<a id="rtp-event"></a>: An exchange of related [transactions](#rtp-transaction) between two financial institutions through the RTP System that constitutes a complete conversation. This could include one or more transactions. For example, a (1) Request for Payment Transaction, followed by a (2) Credit Transfer Transaction, followed by a (3) Payment Acknowledgement Transaction.
 
 - **RTP Leg**<a id="rtp-leg"></a>: A transmission from a financial institution (FI) to the RTP System or the RTP System to an FI. It should be noted that either FI may initiate an RTP Instruction.
 
@@ -291,9 +291,9 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **RTP Request for Return of Funds**<a id="rtp-rfr"></a>: A payment-related message that a Sending Participant submits to the RTP System to request return of funds related to an RTP Payment.
 
-- **RTP Response to Request for Information**<a id="rtp-rrfi"></a>: A payment-related Request Response Message sent to answer with information requested by an [Request for Information Message](#rtp-rfi).
+- **RTP Response to Request for Information**<a id="rtp-rrfi"></a>: A payment-related Request Response Message sent to answer with information requested by a [Request for Information Message](#rtp-rfi).
 
-- **RTP Response to Request for Payment**<a id="rtp-rrfp"></a>: A payment-related Response Request Message sent to answer with information requested by an [Request for Payment Message](#rtp-rfp).
+- **RTP Response to Request for Payment**<a id="rtp-rrfp"></a>: A payment-related Response Request Message sent to answer with information requested by a [Request for Payment Message](#rtp-rfp).
 
 - **RTP Response to Request for Return of Funds**<a id="rtp-rrfr"></a>: A payment-related Request Message Response that a Receiving Participant submits to the RTP System with information in response to a [Request for Return of Funds Message](#rtp-rfr).
 
@@ -301,7 +301,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **RTP Transaction**<a id="rtp-transaction"></a>: A full round trip of Instruction and Response messages. All Payment Transactions have five [legs](#rtp-leg) including the payee's financial institution confirmation leg. Payment-related Transactions have four legs and RTP Control Messages have two legs.
 
-- **Same Day ACH**<a id="same-day-ach"></a>: Delivery of available funds within the same business day, not two to four.
+- **Same-day ACH**<a id="same-day-ach"></a>: Delivery of available funds within the same business day, not instead of the typical two to four day window.
 
 - **savings account**<a id="savings-account"></a>: An interest-bearing account that offers limited access to funds to encourage savings goals. A minimum balance may be required.
 
@@ -317,7 +317,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **straight-through processing (STP)**<a id="stp"></a>: Payment processing that is completely free of human intervention, resulting in faster completion and fewer errors.
 
-- **terminal identification number (TID)**<a id="tid"></a>: Unique numerical identifier that denotes the specific point-of-sale device or computer where a payment transaction is initiated. It's used by merchants, card associations, and others to source the origin of fraud transactions.
+- **terminal identification number (TID)**<a id="tid"></a>: A unique numerical identifier that denotes the specific point-of-sale device or computer where a payment transaction is initiated. It's used by merchants, card associations, and others to source the origin of fraud transactions.
 
 - **The Clearing House (TCH)**<a id="tch"></a>: A banking association and payments company owned by large commercial banks that provides the only private-sector ACH ([EPN](#epn)) and wire ([CHIPS](#chips)) operators in the United States.
 
@@ -327,9 +327,9 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **trace ID**<a id="trace-id"></a>: A unique reference number assigned to each ACH entry, also known as a "trace number", which can be used to “trace” the location of the transfer.
 
-- **ultimate creditor**<a id="ultimate-creditor"></a>: Party that is the ultimate beneficiary of a payment. For example the payment is credited to an account of a financing company, but the ultimate beneficiary is the customer of the financing company.
+- **ultimate creditor**<a id="ultimate-creditor"></a>: The party that is the ultimate beneficiary of a payment. For example, the payment is credited to an account of a financing company, but the ultimate beneficiary is the customer of the financing company.
 
-- **ultimate debtor**<a id="ultimate-debtor"></a>: Party that owes an amount of money to the ultimate creditor, such as the buyer of services or goods. The term is used when the receiver of an invoice is different than the payer.
+- **ultimate debtor**<a id="ultimate-debtor"></a>: The party that owes an amount of money to the ultimate creditor, such as the buyer of services or goods. This term is used when the receiver of an invoice is different than the payer.
 
 - **unauthorized transaction**<a id="unauthorized-transaction"></a>: The use of a credit or debit card, or other method, to make a payment not authorized by the account holder, often the result of fraud or cybercrime. Note that this does not refer to an issuer declining authorization for payment on a transaction.
 
@@ -346,7 +346,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 ## Sales
 
-- **customer relationship management (CRM)**<a id="crm"></a>: One of many different approaches that allows a company to manage and analyse its own interactions with its past, current, and potential customers.
+- **customer relationship management (CRM)**<a id="crm"></a>: One of many different approaches that allows a company to manage and analyze its own interactions with its past, current, and potential customers.
 
 - **horizontal market**<a id="horizontal"></a>: A non-specialized market that doesn’t focus on a single niche and covers a wide range of industries (e.g., office supplies).
 
@@ -363,11 +363,11 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **API (Application Programming Interface)**<a id="api"></a>: A computing interface which defines interactions between multiple software intermediaries. It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow, etc.
 
-- **BaaS (Banking as a Service)**<a id="baas"></a>: A modular approach to supplying complete banking processes that allows brands to easily embed financial services into their products without having to worry about building banking infrastructure or obtaining a license. BaaS utilizes [APIs](#api) and [webhooks](#webhooks) to make integration seamless and cost effective.
+- **BaaS (Banking as a Service)**<a id="baas"></a>: A modular approach to supplying complete banking processes that allows brands to easily embed financial services into their products without having to worry about building banking infrastructure or obtaining a license. BaaS utilizes [APIs](#api) and [webhooks](#webhooks) to make integration seamless and cost-effective.
 
 - **batch processing**<a id="batch-processing"></a>: A type of data processing and data communications transmission in which related transactions are grouped together and transmitted en masse for processing, usually by the same computer and under the same application.
 
-- **encryption**<a id="encryption"></a>: The technique of scrambling sensitive data automatically in a terminal or computer before transmission for security/antifraud purposes using an algorithm and key. This is similar to [tokenization](#tokenization).
+- **encryption**<a id="encryption"></a>: The technique of scrambling sensitive data automatically in a terminal or computer before transmission for security/anti-fraud purposes using an algorithm and key. This is similar to [tokenization](#tokenization).
 
 - **JSON (JavaScript Object Notation)**<a id="json"></a>: A syntax for storing and exchanging data compatible with most programming languages.
 
@@ -396,7 +396,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **ACK**<a id="ack"></a>: for acknowledging receipt of a [CCD](#ccd) entry
 
-- **ADV (Automated Accounting Advice)**<a id="adv"></a>: “represents an optional service to be provided by ACH operators that identifies automated accounting advices of ACH accounting information in machine readable format to facilitate the automation of accounting information for participating DFIs” - ACH Direct
+- **ADV (Automated Accounting Advice)**<a id="adv"></a>: An optional service provided by ACH operators that identifies automated accounting advice of ACH accounting information in machine-readable format to facilitate the automation of accounting information for participating depository financial institutions.
 
 - **ARC (Accounts Receivable Entry)**<a id="arc"></a>: occurs when a consumer check is received at a bank lockbox that’s serving a biller and converted into ACH
 
