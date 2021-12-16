@@ -85,7 +85,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **charge card**<a id="charge-card"></a>: A payment card very similar to a [credit card](#credit-card), except the full balance must be paid off each month, there's usually an annual fee, and there isn't a spending limit.
 
-- **check/cheque**<a id="check"></a>: A document that orders a bank to a pay a specific amount of money from a party’s account to another party whose name the check has been issued.
+- **check/cheque**<a id="check"></a>: A document that orders a bank to pay a specific amount of money from a party’s account to another party whose name the check has been issued.
 
 - **Check 21 Act**<a id="check-21"></a>: A federal law that allows banks to create equivalent electronic images of paper checks for faster processing. The process of creating a check image is called "check truncation", while the electronic copy itself is called a "substitute check" or "image cash letter (ICL)".
 
@@ -329,7 +329,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **ultimate creditor**<a id="ultimate-creditor"></a>: The party that is the ultimate beneficiary of a payment. For example, the payment is credited to an account of a financing company, but the ultimate beneficiary is the customer of the financing company.
 
-- **ultimate debtor**<a id="ultimate-debtor"></a>: The party that owes an amount of money to the ultimate creditor, such as the buyer of services or goods. This term is used when the receiver of an invoice is different than the payer.
+- **ultimate debtor**<a id="ultimate-debtor"></a>: The party that owes an amount of money to the ultimate creditor, such as the buyer of services or goods. This term is used when the receiver of an invoice is different from the payer.
 
 - **unauthorized transaction**<a id="unauthorized-transaction"></a>: The use of a credit or debit card, or other method, to make a payment not authorized by the account holder, often the result of fraud or cybercrime. Note that this does not refer to an issuer declining authorization for payment on a transaction.
 
