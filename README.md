@@ -39,6 +39,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **address verification service (AVS)**<a id="avs"></a>: A security system requiring merchants to supply address information for a cardholder to the institution that issues the credit card in card-not-present transactions, including online purchases.
 
+- **AFT (Account Funding Transaction)**<a id="aft"></a>: A card network transaction used to pull funds from a payment card in order to fund an account balance (e.g. wallet, card, prepaid card) or fund a push payment to another party.
+
 - **anti-money laundering (AML)**<a id="aml"></a>: The process of preventing, detecting, and reporting money laundering, which is the illegal process of making money with criminal origins seem like it was obtained legitimately.
 
 - **arbitration**<a id="arbitration"></a>: The process utilized by credit card issuing companies to ascertain whether an Acquirer has definitive responsibility for a chargeback.
@@ -198,6 +200,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **NACHA (National Automated Clearing House Association)**<a id="nacha"></a>: A nonprofit that manages the ACH network and is composed of various depository financial institutions. NACHA's role is to make rules and products for the ACH payment system and is not directly involved in transaction processing.
 
 - **non-sufficient funds (NSF)**<a id="nsf"></a>: Occurs when a payment is attempted, but there aren’t enough funds in the account to cover it entirely. This commonly results in a fee and a canceled, or “bounced” payment. If the bank doesn’t cancel and covers the payment, it’s known as an [overdraft](#overdraft).
+
+- **OCT (Original Credit Transaction)** <a id="oct"></a>: A card network transaction used to disburse or push funds in real-time to an eligible card account. Commonly referred to as push-to-card.
 
 - **ODFI (Originating Depository Financial Institution)**<a id="odfi"></a>: An ODFI transmits ACH entries to an ACH operator on behalf of an originator, crediting or debiting their account as needed. Each ODFI warrants that the transaction is properly authorized and complies with the NACHA Operating Rules.
 
