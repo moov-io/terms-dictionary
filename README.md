@@ -255,6 +255,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **processor**<a id="processor"></a>: A third party that is designated by a merchant to handle credit card and debit card transactions between that merchant and its customers. They are often broken down into two types: front-end processors and back-end processors.
 
+- **program manager**<a id="program manager"></a>: the entity responsible to an issuing bank for ensuring all risk and compliance requirements, network rules, and other standards are upheld for a particular card program.
+
 - **procure-to-pay**<a id="procure-to-pay"></a>: The process of purchasing and paying for goods and services from vendors. This usually refers to an automated system that integrates procurement with accounts payable.
 
 - **RDFI (Receiving Depository Financial Institution)**<a id="odfi"></a>: An RDFI receives ACH entries from an ACH operator and credits or debits their customer's (receiver's) account as needed.
@@ -384,6 +386,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **production environment**<a id="production-environment"></a>: This is for the final stage of development, and where real users directly interact and testing is complete.
 
 - **SaaS (Software as a Service)**<a id="saas"></a>: A software licensing and delivery model in which software is licensed on a subscription basis and centrally hosted. It is sometimes referred to as "on-demand software".
+
+- **sandbox environment**<a id="sandbox environment"></a>: A testing environment for trial, experimentation, or demonstration purposes. 
 
 - **staging environment**<a id="staging-environment"></a>: This is used for testing or demos and very closely resembles a [production environment](#production-environment).
 
