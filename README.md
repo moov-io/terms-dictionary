@@ -337,7 +337,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **thin file**<a id="thin-file"></a>: The credit report of someone with little or no credit history, which may make it difficult to access credit.
 
-- **TIN validation**<a id="tin-validation"></a>: - An IRS program that allows payers to match the tax identification number (TIN) of a business or individual to the IRS database when filing [1099](#1099) forms. This helps avoid penalties from filing invalid 1099s.
+- **TIN validation**<a id="tin-validation"></a>: An IRS program that allows payers to match the tax identification number (TIN) of a business or individual to the IRS database when filing [1099](#1099) forms. This helps avoid penalties from filing invalid 1099s.
 
 - **trace ID**<a id="trace-id"></a>: A unique reference number assigned to each ACH entry, also known as a "trace number", which can be used to “trace” the location of the transfer.
 
