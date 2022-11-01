@@ -463,7 +463,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **XCK (Destroyed Check Entries)**<a id="xck"></a>: used by an ODFI when checks are lost, destroyed, or unreadable
 
 
-## Moov's Open Source Projects
+## Moov's open source projects
 As part of Moov's initiative to offer open source fintech infrastructure, we have a large collection of active projects you may find useful:
 
 - [**Moov ACH**](https://github.com/moov-io/ach): provides ACH file generation and parsing, supporting all Standard Entry Codes for the primary method of money movement throughout the United States.
