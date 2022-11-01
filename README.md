@@ -1,4 +1,4 @@
-# Dictionary of Key Terms and Acronyms
+# Dictionary of key terms and acronyms
 
 Below are some simple definitions of terms, acronyms, companies, and projects related to financial services and Moov. This is not a complete list, so please feel free to submit a pull request adding a new term with a definition!
 
