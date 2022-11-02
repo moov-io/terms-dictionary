@@ -1,4 +1,4 @@
-# Dictionary of Key Terms and Acronyms
+# Dictionary of key terms and acronyms
 
 Below are some simple definitions of terms, acronyms, companies, and projects related to financial services and Moov. This is not a complete list, so please feel free to submit a pull request adding a new term with a definition!
 
@@ -131,6 +131,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **discount rate**<a id="discount rate"></a>: The percentage fee paid by merchants associated with accepting card payments. This could be a standalone rate or a rate added on top of interchange.
 
+- **dispute**<a id="dispute"></a>: A dispute arises when a cardholder formally questions the validity of a payment by raising a complaint to their card issuer. If the dispute is successful, the card issuer will process a [chargeback](#chargeback), reversing the payment so the cardholder can get their money back.
+
 - **doing business as (DBA)**<a id="dba"></a>: This term refers to a secondary name (also known as an assumed name, fictitious business name, or trade name) that is legally associated with a company and can be used to open bank accounts, write checks, enter into contracts, and for other business purposes. That company must lawfully file this secondary name or faces fines and penalties. A sole proprietor is usually required to file for a DBA, while for large organizations with multiple businesses and brands, a DBA helps identify the true ownership, for legal purposes.
 
 - **Data Security Standard (DSS)**<a id="dss"></a>: Also referred to as the Payment Card Industry Data Security Standard (PCI DSS), this is a common set of information security policies and procedures for use by entities that handle credit card data (basically, any organization that accepts, processes, stores, or transmits credit card information) to protect that data and prevent misuse of cardholders’ personal information.
@@ -144,6 +146,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **Electronic Payments Network (EPN)**<a id="epn"></a>: Owned by The Clearing House and one of two ACH operators (the other is the Federal Reserve Bank). The EPN is responsible for ACH transaction switching among banks for the private sector.
 
 - **faster payments**<a id="faster-payments"></a>: An umbrella term for payment solutions that are always available, offer immediate funds availability, and provide near-instant updates to both the sender and receiver. Examples include [RTP](#rtp) and [FedNow](#fednow).
+
+- **FinCEN (Financial Crimes Enfocement Network)**<a id ="fincen"></a>: A bureau of the United States Department of the Treasury focused on safeguarding the financial system from illicit use through the collection, analysis on financial transactions.
 
 - **FedNow**<a id="fednow"></a>: A real-time gross settlement system that offers immediate access to funds once a payment message is received. Planned to release in 2024, FedNow is similar to [Fedwire](#fedwire), but designed for smaller transactions and with better availability. FedNow is also the publicly-owned counter to The Clearing House's [RTP](#rtp) network.
 
@@ -244,6 +248,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **payment message structure (ISO 20022)**<a id="payment-message-iso20022"></a>: An ISO 20022 payment initiation message is composed of three parts: Group Header, Payment Information, and Credit Transfer Transaction Information.
 
 - **payment method**<a id="payment-method"></a>: The form of payment a consumer uses to purchase goods or services from a seller (e.g., cash, credit card, debit card, money order, bank transfer).
+
+- **payment rails**<a id =payment-rails></a>: The technological infrastructure for moving money from one party to another. Some examples of payment rails include ACH, RTP, and cards.
 
 - **payment service provider (PSP)**<a id="psp"></a>: A payment service provider is a third party that provides merchants the ability to accept electronic payments, enabling connectivity to financial institutions and credit card acquirers.
 
@@ -457,25 +463,27 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **XCK (Destroyed Check Entries)**<a id="xck"></a>: used by an ODFI when checks are lost, destroyed, or unreadable
 
 
-## Moov's Open Source Projects
+## Moov's open source projects
 As part of Moov's initiative to offer open source fintech infrastructure, we have a large collection of active projects you may find useful:
 
 - [**Moov ACH**](https://github.com/moov-io/ach): provides ACH file generation and parsing, supporting all Standard Entry Codes for the primary method of money movement throughout the United States.
 
 - [**Moov Fed**](https://github.com/moov-io/fed): implements utility services for searching the United States Federal Reserve System such as ABA routing numbers, financial institution name lookup, and FedACH and Fedwire routing information.
 
+- [**Moov Fincen**](https://github.com/moov-io/fincen):
+implements a reader, writer, and validator for Fincen BSA forms in an HTTP server and Go library. It is capable of generating, validating, and batching submissions.
+
 - [**Moov Image Cash Letter**](https://github.com/moov-io/imagecashletter): implements Image Cash Letter (ICL) files used for Check21, X.9 or check truncation files for exchange and remote deposit in the U.S.
 
-- [**Moov IRS***](https://github.com/moov-io/irs): implements a reader and writer for IRS FIRE (Filing Information Returns Electronically).
+- [**Moov IRS**](https://github.com/moov-io/irs): implements a reader and writer for IRS FIRE (Filing Information Returns Electronically).
 
-- [**Moov ISO 8583***](https://github.com/moov-io/iso8583): offers a message reader and writer for ISO 8583, a widely used, international standard for card-originated financial transactions that defines both message format and communication flow.
+- [**Moov ISO 8583**](https://github.com/moov-io/iso8583): offers a message reader and writer for ISO 8583, a widely used, international standard for card-originated financial transactions that defines both message format and communication flow.
 
-- [**Moov ISO 20022***](https://github.com/moov-io/iso20022): offers a message reader and writer for ISO 20022, a modern standard for electronic data interchange between financial institutions.
+- [**Moov ISO 20022**](https://github.com/moov-io/iso20022): offers a message reader and writer for ISO 20022, a modern standard for electronic data interchange between financial institutions.
 
-- [**Moov Metro 2***](https://github.com/moov-io/metro2): provides a way to easily read, create, and validate Metro 2 format, which is used for consumer credit history reporting by the United States credit bureaus.
+- [**Moov Metro 2**](https://github.com/moov-io/metro2): provides a way to easily read, create, and validate Metro 2 format, which is used for consumer credit history reporting by the United States credit bureaus.
 
 - [**Moov Watchman**](https://github.com/moov-io/watchman): offers search functions over numerous trade sanction lists from the United States and European Union.
 
 - [**Moov Wire**](https://github.com/moov-io/wire): implements an interface to write files for the Fedwire Funds Service, a real-time gross settlement funds transfer system operated by the United States Federal Reserve Banks.
 
-\* These projects are still in the early stages of development.
