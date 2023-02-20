@@ -271,6 +271,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **procure-to-pay**<a id="procure-to-pay"></a>: The process of purchasing and paying for goods and services from vendors. This usually refers to an automated system that integrates procurement with accounts payable.
 
+- **rapid dispute resolution (RDR)**<a id="rapid-dispute-resolution"></a>: An pre-dispute solution provided by Visa that allows merchants to define rules in order to accept and refund matching disputes automatically.
+
 - **RDFI (Receiving Depository Financial Institution)**<a id="odfi"></a>: An RDFI receives ACH entries from an ACH operator and credits or debits their customer's (receiver's) account as needed.
 
 - **reason code**<a id="reason-code"></a>: A code used to provide additional information to the receiving clearing member regarding the nature of a chargeback, subsequent presentment, fee collection, funds disbursement, or request for a source document.
