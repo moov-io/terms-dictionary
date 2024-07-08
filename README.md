@@ -147,7 +147,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **faster payments**<a id="faster-payments"></a>: An umbrella term for payment solutions that are always available, offer immediate funds availability, and provide near-instant updates to both the sender and receiver. Examples include [RTP](#rtp) and [FedNow](#fednow).
 
-- **FinCEN (Financial Crimes Enfocement Network)**<a id ="fincen"></a>: A bureau of the United States Department of the Treasury focused on safeguarding the financial system from illicit use through the collection, analysis on financial transactions.
+- **FinCEN (Financial Crimes Enforcement Network)**<a id ="fincen"></a>: A bureau of the United States Department of the Treasury focused on safeguarding the financial system from illicit use through the collection and analysis of financial transactions.
 
 - **FedNow**<a id="fednow"></a>: A real-time gross settlement system that offers immediate access to funds once a payment message is received. Planned to release in 2024, FedNow is similar to [Fedwire](#fedwire), but designed for smaller transactions and with better availability. FedNow is also the publicly-owned counter to The Clearing House's [RTP](#rtp) network.
 
