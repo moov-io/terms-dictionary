@@ -85,6 +85,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **cash advance**<a id="cash-advance"></a>: An amount of cash advanced by a bank teller or ATM to a bank cardholder that is drawn against the cardholder’s line of credit.
 
+- **Central Bank Digital Currency (CBDC)**<a id="cbdc"></a>: A digital form of a country's fiat currency issued by the central bank. Unlike cryptocurrencies, CBDCs are regulated and centralized.
+
 - **challenger bank**<a id="challenger-bank"></a>: Also called a neobank, this is a small, new, fully-digital bank that typically offers a mobile app and charges low fees. Neobanks aim to avoid the complexity of traditional banking and may partner with a licensed financial institution or be licensed themselves.
 
 - **chargeback**<a id="chargeback"></a>: A reversal of funds initiated by a card issuer made to a merchant.  Reasons for chargebacks may include but are not limited to fraud, goods/services not received and items not as described. 
@@ -239,6 +241,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **payment**<a id="payment"></a>: The transfer of value from one end party to another.
 
+- **payment aggregator**<a id="payment-aggregator"></a>: A service provider that facilitates online payments by enabling merchants to accept transactions without the need to set up a merchant account with a bank.
+
 - **payment facilitator (PayFac)**<a id="payfac"></a>: A master merchant account that services sub-merchants as an [underwriter](#underwriter), simplifying and speeding up the merchant enrollment process. This eliminates the need for sub-merchants to establish a direct relationship with an acquiring bank. Onboarded sub-merchants do not need to register a [merchant ID (MID)](#mid) and will instead fall under the PayFac's master MID.
 
 - **Payment for Order Flow (PFOF)**<a id="pfof"></a>: A payment by an exchange to a brokerage firm for the right to execute a given trade.  While this is a controversial practice, the net result is often price improvement for the trader, relative to the price on the public exchange.
@@ -333,6 +337,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **sponsor bank**<a id="sponsor-bank"></a>: A licensed financial institution that handles funds transmission and may provide additional banking services for a company's customers within a [BaaS](#baas) model, which lets the company avoid having to obtain a license themselves.
 
+- **stablecoin**<a id="stablecoin"></a>: A cryptocurrency designed to have a stable value by being pegged to a fiat currency or other assets like gold.
+
 - **standard entry class (SEC) code**<a id="sec"></a>: A three character code to identify the format and application of an ACH transaction.
 
 - **standard industrial classification (SIC) code**<a id="sic"></a>: A four-digit code assigned by the United States government that classifies industries and is used to identify the nature of a business.
@@ -368,9 +374,13 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 ## Sales
 
+- **churn rate**<a id="churn-rate"></a>: The percentage of customers who stop using a service during a specific time period. It's often used as a key metric in subscription-based businesses.
+
 - **customer relationship management (CRM)**<a id="crm"></a>: One of many different approaches that allows a company to manage and analyze its own interactions with its past, current, and potential customers.
 
 - **horizontal market**<a id="horizontal"></a>: A non-specialized market that doesn’t focus on a single niche and covers a wide range of industries (e.g., office supplies).
+
+- **lead scoring**<a id="lead-scoring"></a>: A method used in sales to assign a score to prospects based on their likelihood to become a customer, often determined by behavior, demographics, or engagement.
 
 - **letter of intent (LOI)**<a id="loi"></a>: A document declaring the preliminary commitment of one party to do business with another. The letter outlines the chief terms of a prospective deal.
 
@@ -389,6 +399,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **batch processing**<a id="batch-processing"></a>: A type of data processing and data communications transmission in which related transactions are grouped together and transmitted en masse for processing, usually by the same computer and under the same application.
 
+- **decentralized finance (DeFi)**<a id="defi"></a>: An umbrella term for blockchain-based financial services that remove intermediaries like banks, allowing users to lend, borrow, trade, and save cryptocurrencies.
+
 - **encryption**<a id="encryption"></a>: The technique of scrambling sensitive data automatically in a terminal or computer before transmission for security/anti-fraud purposes using an algorithm and key. This is similar to [tokenization](#tokenization).
 
 - **JSON (JavaScript Object Notation)**<a id="json"></a>: A syntax for storing and exchanging data compatible with most programming languages.
@@ -404,6 +416,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **SaaS (Software as a Service)**<a id="saas"></a>: A software licensing and delivery model in which software is licensed on a subscription basis and centrally hosted. It is sometimes referred to as "on-demand software".
 
 - **sandbox environment**<a id="sandbox environment"></a>: A testing environment for trial, experimentation, or demonstration purposes. 
+
+- **smart contract*<a id="smart-contract"></a>: A self-executing contract with the terms of the agreement between buyer and seller directly written into lines of code. Smart contracts are typically used on blockchain platforms.
 
 - **staging environment**<a id="staging-environment"></a>: This is used for testing or demos and very closely resembles a [production environment](#production-environment).
 
