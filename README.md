@@ -147,6 +147,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **Electronic Payments Network (EPN)**<a id="epn"></a>: Owned by The Clearing House and one of two ACH operators (the other is the Federal Reserve Bank). The EPN is responsible for ACH transaction switching among banks for the private sector.
 
+- **End-to-End Transaction (E2E)**<a id="e2e"></a>: The management of a financial transaction from beginning to end. This includes initiation, processing, verification, and settlement.
+
 - **faster payments**<a id="faster-payments"></a>: An umbrella term for payment solutions that are always available, offer immediate funds availability, and provide near-instant updates to both the sender and receiver. Examples include [RTP](#rtp) and [FedNow](#fednow).
 
 - **FinCEN (Financial Crimes Enforcement Network)**<a id ="fincen"></a>: A bureau of the United States Department of the Treasury focused on safeguarding the financial system from illicit use through the collection and analysis of financial transactions.
