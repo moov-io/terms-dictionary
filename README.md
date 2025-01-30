@@ -161,6 +161,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **good funds**<a id="good-funds"></a>: Funds considered equivalent to cash and guaranteed to be available upon demand.
 
+- **gatway service provider (GSP)**<a id="gsp"></a>: A gateway service provider is a third party that provides gateway services.  Typically facilitating communications between a [PSP](#psp) and an [acquirer](#acquirer).
+
 - **hold**<a id="hold"></a>: When a final transaction total is uncertain, as in a hotel stay, an authorization hold is placed on a portion of the cardholder’s credit limit or debit balance as a pledge of collateral. Once the full amount of the transaction is determined, usually at checkout, the card is charged and the hold is removed.
 
 - **idempotency**<a id="idempotency"></a>: A property that prevents the replication of transfers in the case of unintended repeated submissions. 
