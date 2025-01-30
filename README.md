@@ -89,7 +89,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **challenger bank**<a id="challenger-bank"></a>: Also called a neobank, this is a small, new, fully-digital bank that typically offers a mobile app and charges low fees. Neobanks aim to avoid the complexity of traditional banking and may partner with a licensed financial institution or be licensed themselves.
 
-- **chargeback**<a id="chargeback"></a>: A reversal of funds initiated by a card issuer made to a merchant.  Reasons for chargebacks may include but are not limited to fraud, goods/services not received and items not as described. 
+- **chargeback**<a id="chargeback"></a>: A reversal of funds initiated by a card issuer made to a merchant.  Reasons for chargebacks may include but are not limited to fraud, goods/services not received and items not as described.
 
 - **check/cheque**<a id="check"></a>: A document that orders a bank to pay a specific amount of money from a party’s account to another party whose name the check has been issued.
 
@@ -113,7 +113,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **credit card**<a id="credit-card"></a>: A plastic or virtual card with a credit limit used to purchase goods and services and to obtain cash advances on credit for which a cardholder is subsequently billed by the [issuer](#issuer) for repayment of the credit extended.
 
-- **credit transaction (unmatched)**<a id="credit-transaction"></a>: A transaction that gives money back to the cardholder without an existing offsetting sale. Similar to a refund, a credit transaction results in money being moved from the merchant to the cardholder and interchange fees may be applied.  
+- **credit transaction (unmatched)**<a id="credit-transaction"></a>: A transaction that gives money back to the cardholder without an existing offsetting sale. Similar to a refund, a credit transaction results in money being moved from the merchant to the cardholder and interchange fees may be applied.
 
 - **card authorization**<a id="credit-card-authorization"></a>: The initial electronic request made by a merchant to verify a specific amount is available on a card. This process confirms if a card is valid and has adequate funds to cover a transaction. See "decline" and "approval" for the different authorization responses.
 
@@ -147,6 +147,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **Electronic Payments Network (EPN)**<a id="epn"></a>: Owned by The Clearing House and one of two ACH operators (the other is the Federal Reserve Bank). The EPN is responsible for ACH transaction switching among banks for the private sector.
 
+- **End-to-End (E2E)**<a id="e2e"></a>: The management of a financial transaction from beginning to end. This includes initiation, processing, verification, and settlement.
+
 - **faster payments**<a id="faster-payments"></a>: An umbrella term for payment solutions that are always available, offer immediate funds availability, and provide near-instant updates to both the sender and receiver. Examples include [RTP](#rtp) and [FedNow](#fednow).
 
 - **FinCEN (Financial Crimes Enforcement Network)**<a id ="fincen"></a>: A bureau of the United States Department of the Treasury focused on safeguarding the financial system from illicit use through the collection and analysis of financial transactions.
@@ -159,9 +161,11 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **good funds**<a id="good-funds"></a>: Funds considered equivalent to cash and guaranteed to be available upon demand.
 
+- **gatway service provider (GSP)**<a id="gsp"></a>: A gateway service provider is a third party that provides gateway services.  Typically facilitating communications between a [PSP](#psp) and an [acquirer](#acquirer).
+
 - **hold**<a id="hold"></a>: When a final transaction total is uncertain, as in a hotel stay, an authorization hold is placed on a portion of the cardholder’s credit limit or debit balance as a pledge of collateral. Once the full amount of the transaction is determined, usually at checkout, the card is charged and the hold is removed.
 
-- **idempotency**<a id="idempotency"></a>: A property that prevents the replication of transfers in the case of unintended repeated submissions. 
+- **idempotency**<a id="idempotency"></a>: A property that prevents the replication of transfers in the case of unintended repeated submissions.
 
 - **image cash letter (ICL)**<a id="icl"></a>: See [Check 21](#check-21).
 
@@ -171,7 +175,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **interchange fee**<a id="interchange"></a>: In credit card processing, this refers to the fees paid by the acquiring bank to the issuing bank to compensate for transaction-related costs. Card networks like Visa and Mastercard establish interchange fees, which are impacted by multiple variables including (but not limited to) card type (debit or credit), merchant type, entry method (card present vs. card not present), and data passed at the time of the transaction (e.g. zip code).
 
-- **international bank account number (IBAN)**<a id="iban"></a>: An alphanumeric code composed of up to 34 characters that identifies an individual account in an international transaction. 
+- **international bank account number (IBAN)**<a id="iban"></a>: An alphanumeric code composed of up to 34 characters that identifies an individual account in an international transaction.
 
 - **International Organization for Standardization (ISO)**<a id="iso-standards"></a>: An international standard setting organization involved in everything from food safety to financial services. As ISO puts it, a standard is "a formula that describes the best way of doing something". Notable financial standards are ISO 8583 and ISO 20022.
 
@@ -183,7 +187,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **joint account**<a id="joint-account"></a>: An account co-owned by two or more parties, who all have equal responsibilities and permissions.
 
-- **KYB (Know Your Business)**<a id="kyb"></a>: See [KYC](#kyc).  
+- **KYB (Know Your Business)**<a id="kyb"></a>: See [KYC](#kyc).
 
 - **KYC (Know Your Customer)**<a id="kyc"></a>: A standard banking risk assessment practice to prevent identity theft, money laundering, fraud, and terrorism by verifying customer identities and understanding their transaction habits. KYC is a mandatory requirement of legal compliance in the financial sector.
 
@@ -221,7 +225,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **offline debit transaction**<a id="offline-debit"></a>: Also known as a signature-debit transaction, this is a payment method utilizing a debit card without the use of a PIN. These transactions process in much the same way as a credit card transaction (funds are held but not debited immediately). An interchange fee is charged to the merchant and not the card-issuing bank. Offline debit transactions can occur in both a card present and card not present environment
 
-- **online debit transaction**<a id="online-debit"></a>: Also known as a PIN-debit transaction, this is a payment method utilizing a debit card with the use of a PIN and uses a debit network such as STAR or Pulse. Funds are deducted from the cardholder’s bank account immediately upon transaction completion at the point of sale. Online debit transactions are only available in a card present environment. 
+- **online debit transaction**<a id="online-debit"></a>: Also known as a PIN-debit transaction, this is a payment method utilizing a debit card with the use of a PIN and uses a debit network such as STAR or Pulse. Funds are deducted from the cardholder’s bank account immediately upon transaction completion at the point of sale. Online debit transactions are only available in a card present environment.
 
 - **on-us transaction**<a id="online-debit"></a>: A transaction where the sender and receiver banks are the same, resulting in fewer fees for the bank.
 
@@ -415,7 +419,7 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **SaaS (Software as a Service)**<a id="saas"></a>: A software licensing and delivery model in which software is licensed on a subscription basis and centrally hosted. It is sometimes referred to as "on-demand software".
 
-- **sandbox environment**<a id="sandbox environment"></a>: A testing environment for trial, experimentation, or demonstration purposes. 
+- **sandbox environment**<a id="sandbox environment"></a>: A testing environment for trial, experimentation, or demonstration purposes.
 
 - **smart contract*<a id="smart-contract"></a>: A self-executing contract with the terms of the agreement between buyer and seller directly written into lines of code. Smart contracts are typically used on blockchain platforms.
 
