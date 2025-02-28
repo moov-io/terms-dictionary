@@ -157,6 +157,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **Fedwire**<a id="fedwire"></a>: A real-time gross settlement funds transfer system operated by the U.S. Federal Reserve Banks that allows financial institutions to electronically transfer funds. Transfers can only be initiated by the sending bank once they receive the proper wiring instructions for the receiving bank. These instructions include: the receiving bank's routing number, account number, name, and dollar amount being transferred. This information is submitted to the Federal Reserve via the Fedwire system. Once the instructions are received and processed, the Fed will debit the funds from the sending bank's reserve account and credit the receiving bank's account. Wire transfers sent via Fedwire are completed the same business day, with many being completed instantly.
 
+- **foreign exchange (forex, FX)**<a id="foreign-exchange"></a>: See [money service business](#money-service-business).
+
 - **funding source**<a id="funding-source"></a>: Any financial institution, bank, or other funding entity providing liquidity to accommodate various payment flows.
 
 - **good funds**<a id="good-funds"></a>: Funds considered equivalent to cash and guaranteed to be available upon demand.
