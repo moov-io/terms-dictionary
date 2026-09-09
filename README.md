@@ -151,11 +151,19 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **faster payments**<a id="faster-payments"></a>: An umbrella term for payment solutions that are always available, offer immediate funds availability, and provide near-instant updates to both the sender and receiver. Examples include [RTP](#rtp) and [FedNow](#fednow).
 
-- **FinCEN (Financial Crimes Enforcement Network)**<a id ="fincen"></a>: A bureau of the United States Department of the Treasury focused on safeguarding the financial system from illicit use through the collection and analysis of financial transactions.
+- **FedACH**<a id="fedach"></a>: The ACH network operated by the Federal Reserve Banks, one of two ACH operators in the U.S. (the other being [EPN](#epn)). FedACH is responsible for the interbank transmission and settlement of ACH entries submitted by participating financial institutions.
+
+- **FedLine Advantage**<a id="fedline-advantage"></a>: A web browser-based access solution to Federal Reserve Financial Services (such as [Fedwire](#fedwire) and FedACH) offered by the Federal Reserve Banks. It's designed for financial institutions with low-to-moderate transaction volumes that need a low-cost, internet-based connection rather than a dedicated line.
+
+- **FedLine Direct**<a id="fedline-direct"></a>: A computer-to-computer access solution to Federal Reserve Financial Services offered by the Federal Reserve Banks. Unlike [FedLine Advantage](#fedline-advantage), it provides high-volume, high-speed, machine-to-machine connectivity, allowing institutions to integrate access to services like [Fedwire](#fedwire) and FedACH directly into their own systems for straight-through processing.
 
 - **FedNow**<a id="fednow"></a>: A real-time gross settlement system that offers immediate access to funds once a payment message is received. Planned to release in 2024, FedNow is similar to [Fedwire](#fedwire), but designed for smaller transactions and with better availability. FedNow is also the publicly-owned counter to The Clearing House's [RTP](#rtp) network.
 
 - **Fedwire**<a id="fedwire"></a>: A real-time gross settlement funds transfer system operated by the U.S. Federal Reserve Banks that allows financial institutions to electronically transfer funds. Transfers can only be initiated by the sending bank once they receive the proper wiring instructions for the receiving bank. These instructions include: the receiving bank's routing number, account number, name, and dollar amount being transferred. This information is submitted to the Federal Reserve via the Fedwire system. Once the instructions are received and processed, the Fed will debit the funds from the sending bank's reserve account and credit the receiving bank's account. Wire transfers sent via Fedwire are completed the same business day, with many being completed instantly.
+
+- **Financial Institution (FI)**<a id ="fi"></a>: any person doing business in one or more of the following capacities: bank (except bank credit card systems), broker or dealer in securities, money services business, telegraph company, casino, card club, a person subject to supervision by any state or federal bank supervisory authority.
+
+- **FinCEN (Financial Crimes Enforcement Network)**<a id ="fincen"></a>: A bureau of the United States Department of the Treasury focused on safeguarding the financial system from illicit use through the collection and analysis of financial transactions.
 
 - **foreign exchange (forex, FX)**<a id="foreign-exchange"></a>: See [money service business](#money-service-business).
 
@@ -344,6 +352,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **sponsor bank**<a id="sponsor-bank"></a>: A licensed financial institution that handles funds transmission and may provide additional banking services for a company's customers within a [BaaS](#baas) model, which lets the company avoid having to obtain a license themselves.
 
 - **stablecoin**<a id="stablecoin"></a>: A cryptocurrency designed to have a stable value by being pegged to a fiat currency or other assets like gold.
+
+- **stand-in processing (STIP)**<a id="stand-in-processing"></a>: A contingency service, offered by card networks or processors, that authorizes transactions on behalf of an issuer when the issuer's own authorization system is unavailable. Using preset parameters (e.g., available balance, velocity limits), stand-in processing approves or declines the transaction so authorization can continue during an outage.
 
 - **standard entry class (SEC) code**<a id="sec"></a>: A three character code to identify the format and application of an ACH transaction.
 
