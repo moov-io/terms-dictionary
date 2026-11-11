@@ -13,6 +13,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **1099**<a id="1099"></a>: A 1099 usually refers to the IRS 1099-NEC form (formerly 1099-MISC). Each year, it’s sent to independent contractors and freelancers (non-employees) who have been paid $600 or more by a client company. Separate 1099s are sent for each company.
 
+- **3DS (3-D Secure)**<a id="3ds"></a>: An authentication protocol for [card not present (CNP)](#cnp) transactions in which the issuer verifies the cardholder's identity (for example through a one-time passcode, biometric check, or silent risk-based review) before the transaction is authorized. A successfully authenticated transaction can shift fraud-related [chargeback](#chargeback) liability from the merchant to the issuer. Marketed by the card networks under names such as Visa Secure and Mastercard Identity Check. 3DS2 is the current version, and is designed for a lower-friction experience than the original.
+
 - **A2A (Account-to-Account)**<a id="a2a"></a>: Payments that involve the transfer of funds between two accounts owned by a single party. These accounts may be at the same or different financial institutions.
 
 - **accounts payable (AP)**<a id="ap"></a>: Amounts due to vendors or suppliers for goods or services received that have not yet been paid for.
@@ -203,9 +205,15 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 
 - **ledger**<a id="ledger"></a>: A book in which the monetary transactions of a business are posted in the form of debits and credits.
 
+- **LMS (Loan Management Service)**<a id="lms"></a>: The system that manages a loan after it has been funded, including payment schedules, billing, collecting and applying repayments, interest and fee accrual, delinquency tracking, and payoff. Picks up where the [LOS](#los) leaves off, and typically posts activity to a ledger.
+
+- **LOS (Loan Origination Service)**<a id="los"></a>: The system that supports the [origination](#origination) of a loan, covering application intake, KYC/KYB and credit score or credit bureau checks, underwriting, approval or denial, and loan documents through to funding. Once a loan is funded, it is typically handed off to the [LMS](#lms) for ongoing management.
+
 - **magnetic ink character recognition (MICR)**<a id="micr"></a>: Banking numbers (routing/transit number, checking account number, check number) that appear at the bottom of a check and enable high-speed processing.
 
 - **magstripe** <a id = "magstripe"></a>: The magnetic strip on the back of a payment card that transmits card data during a transaction. In most cases, the magstripe is a “fallback” option in the event a chip malfunctions or cannot be read.
+
+- **MCA (Merchant Cash Advance)**<a id="mca"></a>: A form of business financing in which a provider advances a lump sum to a merchant in exchange for a share of future sales or receivables, typically repaid through a fixed percentage of daily card settlement or via periodic ACH debits. Structured as a purchase of future revenue rather than a loan, and priced with a factor rate rather than an interest rate. Not to be confused with a [cash advance](#cash-advance), which is cash drawn against a cardholder's line of credit.
 
 - **merchant**<a id="merchant"></a>: A business selling goods or services either in person (retailer) or remotely (website or mail order/telephone order) often accepting payment cards as a form of payment.
 
@@ -270,6 +278,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **payment rails**<a id =payment-rails></a>: The technological infrastructure for moving money from one party to another. Some examples of payment rails include ACH, RTP, and cards.
 
 - **payment service provider (PSP)**<a id="psp"></a>: A payment service provider is a third party that provides merchants the ability to accept electronic payments, enabling connectivity to financial institutions and credit card acquirers.
+
+- **Payments Hub**<a id="payments-hub"></a>: A central layer that orchestrates how money is funded into and distributed out of a platform. A Payments Hub receives funding from a [funding source](#funding-source), applies routing and business logic, and sends funds out across the appropriate [payment rails](#payment-rails) (e.g. ACH, RTP, card, wire), tracking each movement on a ledger. It lets a platform integrate with many rails and providers through a single interface, often with straight-through processing (STP).
 
 - **PCI (Payment Card Industry) compliance**<a id="PCI compliance"></a>: Adherence to the security regulations set by the Payment Card Industry Data Security Standard (PCI DSS). PCI compliance is crucial for maintaining the ability to make card transactions and avoiding penalties.
 
@@ -382,6 +392,8 @@ Below are some simple definitions of terms, acronyms, companies, and projects re
 - **under review**<a id="under-review"></a>: The payment processor practice of reviewing a potentially fraudulent or high-risk transaction prior to submission for processing, usually resulting in a minor delay.
 
 - **underwriter**<a id="underwriter"></a>: A party that evaluates and assumes another party’s risk for a fee.
+
+- **VAN (Virtual Account Number)**<a id="van"></a>: A unique account number issued by a bank or program provider that is linked to a single underlying (master) account, rather than being a separate account of its own. Funds sent to a VAN are credited to the master account and attributed to the VAN's owner, which makes it possible to identify and reconcile incoming payments per customer, invoice, or purpose without opening a new checking account for each. Like a standard account, a VAN is paired with a routing number and is tracked on the ledger. Not to be confused with a virtual card number, which is a [PAN](#pan) used for card payments.
 
 - **value-added reseller (VAR)**<a id="var"></a>: An entity that resells a product after adding some additional value, often in the form of warranties, customer support, consultations, or integration with other products.
 
